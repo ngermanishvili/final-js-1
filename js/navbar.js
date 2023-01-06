@@ -57,13 +57,6 @@ fetch('https://reqres.in/api/users?page=2')
     console.error(error);
   });
 
-  window.addEventListener('scroll', function() {
-    var scrollY = window.scrollY;
-    var backgroundPosition = '0 ' + (-scrollY/4) + 'px';
-    document.querySelector('.content-2-training').style.backgroundPosition = backgroundPosition;
-  });
-
-  
 
 
 

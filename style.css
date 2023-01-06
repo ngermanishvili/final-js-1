@@ -83,6 +83,10 @@ body {
   text-align: center;
   margin-right: 4px;
 }
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 .ul-style {
@@ -108,12 +112,17 @@ body {
 
 /* ////////////////RESPONSIVE-CSS FOR BURGER ////////////// */
 
+@media(max-width:1024px) {
+  .btn-div{
+    display: none;
+  }}
+
 @media(max-width:768px) {
   .navbar {
     display: none;
   }
 
-
+  
 
   .burgBar {
     display: block;
@@ -938,14 +947,17 @@ footer .footer-menu h4 {
 /* // btn btn  */
 
 .middle {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .btn {
+  float: right; /* float the buttons to the right side of the element */
   background: none;
   border: 1px solid #000;
   font-family: "montserrat", sans-serif;
@@ -957,15 +969,18 @@ footer .footer-menu h4 {
   transition: color 0.4s linear;
   position: relative;
 }
-
+.btn-div{
+  position: absolute;
+  right: 0;
+}
 .btn:hover {
   color: #fff;
 }
 
 .btn a {
-  font-size: 24px;
+  font-size: 14px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   list-style: none;
 }
 
