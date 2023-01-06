@@ -82,6 +82,7 @@ body {
   padding: 20px;
   text-align: center;
   margin-right: 4px;
+  font-size: 14px;
 }
 nav{
   display: flex;
@@ -91,7 +92,9 @@ nav{
 
 .ul-style {
   display: flex;
+  padding: 10px;
 }
+
 
 .navbar li a {
   color: #fff;
@@ -112,17 +115,15 @@ nav{
 
 /* ////////////////RESPONSIVE-CSS FOR BURGER ////////////// */
 
-@media(max-width:1024px) {
-  .btn-div{
-    display: none;
-  }}
-
 @media(max-width:768px) {
   .navbar {
     display: none;
   }
 
-  
+  .btn-div{
+    display: none;
+  }
+
 
   .burgBar {
     display: block;
@@ -946,39 +947,33 @@ footer .footer-menu h4 {
 
 /* // btn btn  */
 
-.middle {
-  display: flex;
-  justify-content: flex-end;
-  text-align: right;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .btn {
-  float: right; /* float the buttons to the right side of the element */
   background: none;
-  border: 1px solid #000;
   font-family: "montserrat", sans-serif;
   text-transform: uppercase;
-  padding: 12px 20px;
   min-width: 200px;
   margin: 10px;
   cursor: pointer;
   transition: color 0.4s linear;
   position: relative;
+  padding: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
 }
-.btn-div{
-  position: absolute;
-  right: 0;
+.btn-div-1{
+  top: 10px;
+right: 0;
+position: absolute;
 }
 .btn:hover {
   color: #fff;
 }
 
 .btn a {
-  font-size: 14px;
+  font-size: 1px;
   color: #fff;
   font-weight: 600;
   list-style: none;
