@@ -29,40 +29,59 @@
 </head>
 <body>
         <header>
-            <div class="header-main">
-                <a href=""><h1 class="logo"><p> <span>onyx</span> fitness</h1></a>
-    <div class="side-menu">
-                <nav class="navbar" id="idnavbar">
-                
-                    <ul class="ul-style">
-                        <li id="listing">
-                            <a href="#">ონიქსი</a>
-                        </li>
-                        <li>
-                            <a href="#">მთავარი</a>
-                        </li>
-                        <li>
-                            <a href="#">პერსონალური ვარჯიშები</a>
-                        </li>
-                        <li>
-                            <a href="#">კონტაქტი</a>
-                        </li>
-                    </ul>
-                  </div>
-                </nav>
-    
-
-                <div class="burgBar" id="idburger">
-                    <div class="line line1"></div>
-                    <div class="line line2"></div>
-                    <div class="line line3"></div>
+          <div class="header-main">
+            <a href=""><h1 class="logo"><p> <span>onyx</span> fitness</h1></a>
+            <div class="side-menu">
+              <nav class="navbar" id="idnavbar">
+                <ul class="ul-style">
+                  <li id="listing">
+                    <a href="#">onyx</a>
+                  </li>
+                  <li>
+                    <a href="#">მთავარი</a>
+                  </li>
+                  <li>
+                    <a href="#">სიახლეები</a>
+                  </li>
+                  <li>
+                    <a href="#">კურსები</a>
+                  </li>
+                  <li>
+                    <a href="#">პერსონალური ვარჯიშები</a>
+                  </li>
+                  <div class="authorize-reg-content-div">
+                  <li class="authorize-01">
+                    <a href="#">ავტორიზაცია</a>
+                  </li>
+                  <li class="register-01">
+                    <a href="#">რეგისტრაცია</a>
+                  </li>
                 </div>
-                <div class="btn-div-1">
-                  <button class="btn btn1">რეგისტრაცია</button>
-                  <button class="btn btn2">ავტორიზაცია</button>
-                </div>
+                </ul>
+              </nav>
             </div>
-            
+            <div class="burgBar" id="idburger">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+            <div class="btn-div-1">
+              <button class="btn btn1">autorization</button>
+              <button class="btn btn2">register</button>
+            </div>
+          </div>
+          
+          <script>
+            // Get a reference to the burger bar and the buttons container
+            var burgerBar = document.getElementById("idburger");
+            var buttonsContainer = document.querySelector(".btn-div-1");
+          
+            // Add an event listener to the burger bar that toggles the buttons' visibility
+            burgerBar.addEventListener("click", function() {
+              buttonsContainer.classList.toggle("visible");
+            });
+          </script>
+          
         </header>
   
 
