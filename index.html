@@ -1,347 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!-- Google Fonts CDN Link -->
-     <link
-     href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
-     rel="stylesheet"
-   />
-   <link
-     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-     rel="stylesheet"
-   />
-   <!-- Font Awesome CDN Link -->
-   <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-     crossorigin="anonymous"
-     referrerpolicy="no-referrer"
-   />
-   <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Fonts CDN Link -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assests/splide.min.css">
+    <link rel="stylesheet" href="assests/style.css">
+    <script src="splide.min.js"></script>
+
+
+  <title>onyx-fitness</title>
 </head>
-<body>
-        <header>
-          <div class="header-main">
-            <a href=""><h1 class="logo"><p> <span>onyx</span> fitness</h1></a>
-            <div class="side-menu">
-              <nav class="navbar" id="idnavbar">
-                <ul class="ul-style">
-                  <li id="listing">
-                    <a href="#">onyx</a>
-                  </li>
-                  <li>
-                    <a href="#">მთავარი</a>
-                  </li>
-                  <li>
-                    <a href="#">სიახლეები</a>
-                  </li>
-                  <li>
-                    <a href="#">კურსები</a>
-                  </li>
-                  <li>
-                    <a href="#">პერსონალური ვარჯიშები</a>
-                  </li>
-                  <div class="authorize-reg-content-div">
-                  <li class="authorize-01">
-                    <a href="#">ავტორიზაცია</a>
-                  </li>
-                  <li class="register-01">
-                    <a href="#">რეგისტრაცია</a>
-                  </li>
-                </div>
-                </ul>
-              </nav>
-            </div>
-            <div class="burgBar" id="idburger">
-              <div class="line line1"></div>
-              <div class="line line2"></div>
-              <div class="line line3"></div>
-            </div>
-            <div class="btn-div-1">
-              <button class="btn btn1">autorization</button>
-              <button class="btn btn2">register</button>
-            </div>
-          </div>
-          
-          <script>
-            // Get a reference to the burger bar and the buttons container
-            var burgerBar = document.getElementById("idburger");
-            var buttonsContainer = document.querySelector(".btn-div-1");
-          
-            // Add an event listener to the burger bar that toggles the buttons' visibility
-            burgerBar.addEventListener("click", function() {
-              buttonsContainer.classList.toggle("visible");
-            });
-          </script>
-          
-        </header>
-  
 
-    <main>
+<body class="body-gallerea">
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+  <header>
+    <div class="header-main">
+      <a href="">
+        <h1 class="logo">
+          <p> <span>onyx</span> fitness</p>
+        </h1>
+      </a>
+      <div class="side-menu">
+        <nav class="navbar" id="idnavbar">
+          <ul class="ul-style">
+            <li id="listing">
+              <a href="#">onyx</a>
+            </li>
+            <li>
+              <a href="#">მთავარი</a>
+            </li>
+            <li>
+              <a href="#">სიახლეები</a>
+            </li>
+            <li>
+              <a href="#">კურსები</a>
+            </li>
+            <li>
+              <a href="#">პერსონალური ვარჯიშები</a>
+            </li>
+          </ul>
+            <div class="authorize-reg-content-div">
+              <div class="authorize-01">
+                <a href="#">ავტორიზაცია</a>
+              </div>
+              <div class="register-01">
+                <a href="#">რეგისტრაცია</a>
+              </div>
+            </div>
+          </nav>
+       
 
-      <section>
-        <div class="video-container">
-          <img class="main-cont-f1" src="img/contnt-back.avif" alt="content">
-          <!-- <video class="main-custom-video" autoplay loop playsinline>
-            <source src="https://img1.beachbodyimages.com/beachbody/video/upload/q_auto:eco/v1663116791/homepage-v2/HeroDesktop.b6787347bf0f53cdc62004a2b59bdb40.mp4" type="video/mp4">
-          </video> -->
-          <div class="video-overlay">
-            <!-- <div class="middle">
-              <button class="btn btn1"> <a href="#">რეგისტრაცია</a> </button>
-              <button class="btn btn2"><a href="#">ავტორიზაცია </a> </button>
-            </div> -->
-          </div>
-        </div> 
-      </section>
-      
-      <!-- <h2 class="main-content-h2">ONYX - შენი ცვლილება იწყება აქ !</h2> -->
-      <!-- <div class="video-autoplay">
-        <video autoplay loop playsinline style="opacity: 1;">
-          <source src="https://img1.beachbodyimages.com/beachbody/video/upload/q_auto:eco/v1663116791/homepage-v2/HeroDesktop.b6787347bf0f53cdc62004a2b59bdb40.mp4" type="video/mp4">
-        </video>
-      </div> -->
-  <!-- ----------------------------- our 3rd section start 
-    Plz susbsribe to Thapa Technical. It means a world to me. 
-      ---------------------------------------------------------------------- -->
-     
-      <div class="row">
-        <h3>რატომ ონიქსი?</h3>
-        <div class="content-3-training">
-          <video class="main-custom-video" autoplay loop playsinline>
-            <source src="img/workout.mp4" type="video/mp4">
-          </video>
-        <div class="text-window">
-        <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ შესაძლებლობებს, სადაც სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და გამოწვევებით სავსეა<div class="span"> </div> <a href="#">მეტის ნახვაა</a> 
-
-            <!-- ჩვენ ყოველთვის ვუზიარებთ ერთმანეთს საკუთარ გამოცდილებას. ორიენტირებული ვართ სიახლეებსა და განვითარებაზე. ვართ ლიდერები ჩვენს სფეროში. ონიქსი არის გუნდი, რომელიც ხელს უწყობს ერთმანეთს წარმატების მიღწევაში, და ასევე სასიხარულოა რომ ჩვენი მომსახურება ნელ-ნელა გადადის ონლაინ რეჟიმზე რომელიც ხელმისაწვდომს გახდის ყველასთვის ჩვენსს სერვისს ქვეყნის ნებისმიერი წერტილიდან.</p> -->
-          </div>
       </div>
-       </div>
-      
-<!-- <div class="mshobeli">
-  <section class="section-third" id="section-third">
-    <h2> შენი ცვლილება იწყება აქ ! </h2>
-    <div class="section-third-task">
-      <div class="task-1">
-        <img src="images/sectionIcon1.png" alt="icon1" />
-        <h3>სწავლა & განვითარება</h3>
-        <p>
-          Lamet minim mollit non deserunt <br> ullamco est sit aliq do amet sint.
-          Velit officia consequat
-        </p>
+      <div class="burgBar" id="idburger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
       </div>
+      <div class="btn-div-1">
+        <button class="btn btn1">autorization</button>
+        <button class="btn btn2">register</button>
+      </div>
+    </div>
+
+
+  </header>
+
+
+  <main>
+
+    <section>
+      <div class="video-container">
+        <img class="main-cont-f1" src="img/onyx-btstp-pics/Onyx_033.jpg" alt="content">
+      </div>
+    </section>
+
+
+    <section class="loader-sect">
+      <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        </div>
+  </section>
+ 
     
-   
-      <div class="task-2">
-        <img src="images/sectionIcon3.png" alt="icon1" />
-        <h3>ყოველდღიური რაციონის შედგენა</h3>
-        <p>
-          Lamet minim mollit non <br> deserunt ullamco est sit aliq do amet sint.
-          Susbcribe to ThapaTechncial.
-        </p>
-      </div> -->
-      <!-- <div class="task-3">
-        <img src="images/sectionIcon3.png" alt="icon1" />
-        <h3>Stay Motivated</h3>
-        <p>
-          Lamet minim mollit non deserunt ullamco est sit aliq do amet sint.
-          Velit officia consequat
-        </p>
-      </div> -->
-    <!-- </div> -->
-
-  <section>
-    <div class="parallax"></div>
+    <div class="row">
+      <h3>რატომ ონიქსი?</h3>
+      <div class="content-3-training">
+        <video class="main-custom-video" autoplay loop playsinline>
+          <source src="img/workout.mp4" type="video/mp4">
+        </video>
+        <div class="text-window">
+          <div class="onyx-content-section">
+            <h2><span class="h2-span-0">შენი</span> <span class="h2-span-1">ცვლილება</span> <span class="h2-span-0">
+                იწყება</span> <span class="h2-span-1"> აქ !</span></h2>
+            <p class="content-onyx-01">ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში <br> ვქმნით
+              თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+              საინტერესო, კომფორტული და გამოწვევებით სავსეა.
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        </div>
+        <h2 class="loader-h2">გახდი ჩვენი პარტნიორი, შენი რეკლამის ადგილი !</h2>
   </section>
 
-       
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+          <ul class="splide__list">
+              <li class="splide__slide"><img src="img/fit-01.jpg" alt=""></li>
+              <li class="splide__slide"><img src="img/fit-02.jpg" alt=""></li>
+              <li class="splide__slide"><img src="img/fit-02.jpg" alt=""></li>
+              <li class="splide__slide"><img src="img/download.png" alt=""></li>
+              <li class="splide__slide"><img src="img/pic-01.jpeg" alt=""></li>
+          </ul>
+      </div>
+      
+  </section>
+
+
+
+    <!-- // card container -->
+    <section>
+      <h3 class="team-members-h2"></h3>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/portrait-1.jpg" alt="img"/>
+          <div class="card-info">
+            <h6>alex smith</h6>
+            <span>graphic designer</span>
+            <div class="social-icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+    </div>
+  </div>
+  </section>
+
+
+ 
+
+
+      <section class="accordion-section">
+        <div class="acc-accordion">
+          <h2 class="accordion-title"><span class="h2-span">შენი</span> ცვლილება <span class="h2-span"> იწყება</span> აქ
+            !</h2>
+          <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
+            თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+            საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
+        </div>
+        <div class="acc-accordion">
+          <h2 class="accordion-title">
+            <span class="accordion-p"> არ შეუშინდე გამოწვევებს </span>
+          </h2>
+          <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
+            თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+            საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
+        </div>
+      </section>
+
+
+
+      <!-- //PARALLAX SECTION -->
+   <div class="body-smile">
+      <form class="fr" action="">
+        <label class="fr__label" for="face-rating">როგორია შენი გამოცდილება ფიტნესის სფეროში??</label>
+        <div class="fr__face" role="img" aria-label="Straight face">
+          <div class="fr__face-right-eye" data-right></div>
+          <div class="fr__face-left-eye" data-left></div>
+          <div class="fr__face-mouth-lower" data-mouth-lower></div>
+          <div class="fr__face-mouth-upper" data-mouth-upper></div>
+        </div>
+        <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+      </form>
+    </div>
+      
+      <!-- // CONTENT R VIDEO  -->
+
+      <section class="loader-sect-02">
+        <div class="loader">
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          <div class="loader-square"></div>
+          </div>
+    </section>
+
+    <section>
+      <div class="parallax">
+        <h2>ჩვენი გუნდი ყოველთვის მზად არის იზრუნოს შენს ტრანსფორმაციაზე !</h2>
+      </div>
+    </section>
+
+      <h2 class="gallery-h2-content">ონიქსი გალერეა</h2>
+          <section>
+      <div class="page-container">
+        <div class="items-grid">
+          <div class="item item1">
+            <img src="" alt="image1" class="item__img" />
+            <h1 class="item__title">ონიქსი</h1>
+          </div>
+          <div class="item item2">
+            <img src="" alt="image2" class="item__img" />
+            <h1 class="item__title">ჯანსაღი</h1>
+          </div>
+          <div class="item item3">
+          <img src="" alt="image3" class="item__img" />
+          <h1 class="item__title">სხეულის</h1>
+        </div>
+
+        <div class="item item4">
+          <img src="" alt="image4" class="item__img" />
+          <h1 class="item__title">საიდუმლოს</h1>
+        </div>
+
+        <div class="item item5">
+          <img src="" alt="image5" class="item__img" />
+          <h1 class="item__title">იპოვნი</h1>
+        </div>
+
+        <div class="item item6">
+          <img src="" alt="image6" class="item__img" />
+          <h1 class="item__title">აქ</h1>
+        </div>
+    </section>
+    <div class="shuffle-btn-dv">
+      <button class="shuffle-btn">შეცვალე&nbsp;ფოტოები</button>
+  </div>
+     
+  <!-- // slider  -->
+
+
+
+
+
   <div class="row">
     <div class="content-3-training">
       <video class="main-custom-video" autoplay loop playsinline>
         <source src="img/anywhere.mp4" type="video/mp4">
       </video>
-    <div class="text-window">
-    <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ შესაძლებლობებს, სადაც სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და გამოწვევებით სავსეა<div class="span"> </div> <a href="#">მეტის ნახვაა</a> 
-      </div>
-  </div>
-   </div>
-
-
-  
-  
-  <!-- <div class="accordion">
-    <div class="accordion-title">Click me</div>
-    <div class="accordion-content">
-      <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ შესაძლებლობებს, სადაც სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და გამოწვევებით სავსეა.
-
-        <!-- ჩვენ ყოველთვის ვუზიარებთ ერთმანეთს საკუთარ გამოცდილებას. ორიენტირებული ვართ სიახლეებსა და განვითარებაზე. ვართ ლიდერები ჩვენს სფეროში. ონიქსი არის გუნდი, რომელიც ხელს უწყობს ერთმანეთს წარმატების მიღწევაში, და ასევე სასიხარულოა რომ ჩვენი მომსახურება ნელ-ნელა გადადის ონლაინ რეჟიმზე რომელიც ხელმისაწვდომს გახდის ყველასთვის ჩვენსს სერვისს ქვეყნის ნებისმიერი წერტილიდან.</p> -->
-    <!-- </div>
-  </div>
-   --> -->
-</section>
-
-<section>
-
-  <div class="row">
-    <h3>Lorem ipsum dolor sit amet, consectetur molestias placeat vitae mollitia quam minima neque rem officia!</h3>
-    <div class="content-5-training">
-      <div class="screen-div">
-      <img class="scren" src="images/tv.png" alt="">
-    </div>
-    <div class="text-screen">
-   
-      </div>
-  </div>
-   </div>
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-sm-4  ">
-        <!-- <video height="1000" width="1000" src="https://terminal-27.cdn.prismic.io/terminal-27/0a879ba5-ac14-4b31-a5ca-80ae05b6fb20_30%25+SPEED+LANDSCAPE+1.5+.mov" class="media media-video" playsinline="" autoplay="" loop=""></video> -->
-      <!-- </div>
-      <div class="col-sm-4">
-        <img src="img/fit-young-man-with-beautiful-torso-isolated-white-wall.jpg" alt="Photo 1">
-      </div>
-      <div class="col-sm-4">
-        <img src="img/fit-young-man-with-beautiful-torso-isolated-white-wall.jpg" alt="Photo 1">
-      </div>
-    </div> -->
-
-  </div> 
-</section>
-
-    </main>
-
- <footer>
-  
- </footer>
-      <div class="icon-bar">
-        <a href="#" class="facebook" target="_thapa">
-          click here to visit <i class="fab fa-facebook-square"></i>
-        </a>
-  
-        <a href="#" class="telegram" target="_thapa">
-          click here to visit <i class="fab fa-telegram-plane"></i>
-        </a>
-  
-        <a
-          href="https://www.instagram.com/thapatechnical/"
-          class="instagram"
-          target="_thapa"
-        >
-          click here to visit <i class="fab fa-instagram"></i>
-        </a>
-  
-        <a href="#" class="linkedin" target="_thapa">
-          click here to visit <i class="fab fa-linkedin"></i>
-        </a>
-  
-        <a
-          href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-          class="youtube"
-          target="_thapa"
-        >
-          click here to visit <i class="fab fa-youtube-square"></i>
-        </a>
-      </div>
-    </div>
-  <div>
-    <section>
-      
-      
-      <!-- <div class="accrodion-container">
-        <div class="acc-accordion">
-          <h2 class="accordion-title">How to center div?</h2>
-          <p class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iste assumenda beatae eos aspernatur illo adipisci. Et nisi eos architecto inventore. Minus facere dignissimos aspernatur iure, laboriosam obcaecati explicabo dolorem?</p>
-        </div>
-  
-        <div class="acc-accordion">
-          <h2 class="accordion-title">How to make Responsive grid?</h2>
-          <p class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iste assumenda beatae eos aspernatur illo adipisci. Et nisi eos architecto inventore. Minus facere dignissimos aspernatur iure, laboriosam obcaecati explicabo dolorem?</p>
-        </div>
-  
-        <div class="acc-accordion">
-          <h2 class="accordion-title">How to make Responsive navbar?</h2>
-          <p class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iste assumenda beatae eos aspernatur illo adipisci. Et nisi eos architecto inventore. Minus facere dignissimos aspernatur iure, laboriosam obcaecati explicabo dolorem?</p>
-        </div>
-      </div>       -->
-   <section>
-    <div class="card-container">
-    <div class="card">
-      <img src="images/portrait-1.jpg" />
-      <div class="card-info">
-        <h6>alex smith</h6>
-        <span>graphic designer</span>
-        <div class="social-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div>
-        </div>
-       </section>
-      <!-- </div>
-    </div>
-    <div class="card">
-      <img src="images/portrait-2.jpg" />
-      <div class="card-info">
-        <h6>alex smith</h6>
-        <span>graphic designer</span>
-        <div class="social-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="images/portrait-3.jpg" />
-      <div class="card-info">
-        <h6>alex smith</h6>
-        <span>graphic designer</span>
-        <div class="social-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="images/portrait-4.jpg" />
-      <div class="card-info">
-        <h6>alex smith</h6>
-        <span>graphic designer</span>
-        <div class="social-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div> -->
+      <div class="text-window">
+        <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ შესაძლებლობებს, სადაც
+          სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და გამოწვევებით
+          სავსეა
+        <div class="span"> </div> <a href="#">მეტის ნახვაა</a>
       </div>
     </div>
   </div>
-    </section>
+  
+      <!-- //  CONTENT 5 ITEMS  -->
+<!-- 
+      <section>
+        <div class="container">
+          <div class="row routine-01">
+            <div class="col-md-3">
+              <img src="img/onyx-btstp-pics/Icon-24-7-04.png" class="img-fluid" alt="#img">
+              <h4>შენზე მორგებული გრაფიკი</h4>
+            </div>
+            <div class="col-md-3">
+              <img src="img/onyx-btstp-pics/Icon-Calendar-03.png" class="img-fluid" alt="#img">
+              <h4>24/7 ხელმისაწვდომი პროგრამა</h4>
+            </div>
+            <div class="col-md-3">
+              <img src="img/onyx-btstp-pics/Icon-Groups-02.png" class="img-fluid" alt="#img">
+              <h4>შემოუერთდი ჩვენს გუნდს </h4>
+            </div>
+            <div class="col-md-3">
+              <img src="img/onyx-btstp-pics/shtanga-pic-01.png" class="img-fluid" alt="#img">
+              <h4>პერსონალური ვარჯიშები</h4>
+            </div>
+          </div>
+        </div>
+      </section> -->
 
-    <section>
-    </section>
-  <footer>
+      <!-- // TV SECTION -->
+
+
     
-  </footer>
-    
+      
+
+
+  <section>
+    <div class="icon-bar">
+      <a href="#" class="facebook">
+        click here to visit <i class="fab fa-facebook-square"></i>
+      </a>
+
+      <a href="#" class="telegram">
+        click here to visit <i class="fab fa-telegram-plane"></i>
+      </a>
+
+      <a href="https://www.instagram.com/thapatechnical/" class="instagram">
+        click here to visit <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://www.instagram.com/thapatechnical/" class="linkedin">
+        click here to visit <i class="fab fa-linkedin"></i>
+      </a>
+     
+      <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" class="youtube">
+        click here to visit <i class="fab fa-youtube-square"></i>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-nav">
+      <ul>
+        <li><a href="#main">Main</a></li>
+        <li><a href="#personal-trainings">Personal Trainings</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#sales">Sales</a></li>
+      </ul>
+    </div>
+    <div class="container-1">
+      <div class="card_box">
+        <img src="images/stdfer2.jpeg" alt="">
+      </div>
+       <span>პრემიუმ მომსახურება</span>
+  </div>
+    <div class="video-bg overlapping-video-bg">
+          <div class="image-parent">
+             <img data-speed="auto" src="https://images.unsplash.com/photo-1583430999185-4c19b0c9636a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80" alt="" />
+          </div>
+
+          
+  </div>
+</div>
+</div>
+  
+</footer>
+
+<script src="gsap/gsap.min.js"></script>
+<script src="gsap/ScrollTrigger.min.js"></script>
+<script src="gsap/ScrollSmoother.min.js"></script>
+<script src="gsap/gsap.js"></script>
+ <script src="smile-emotions.js"></script>
+  <script src="js/splide-multiple.js"></script>
+  <script src="splide.min.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/navbar.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 </body>
-<script src="js/navbar.js"></script>
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>

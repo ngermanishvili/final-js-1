@@ -57,4 +57,3 @@ fetch('https://reqres.in/api/users?page=2')
     console.error(error);
   });
 
-
