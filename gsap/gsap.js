@@ -11,6 +11,9 @@ ScrollSmoother.create({
     smoothTouch: 0.1,
 });
 
+
+
+
 // Select the element
 const parallax = document.querySelector(".parallax");
 
@@ -30,3 +33,5 @@ gsap.to(parallax, {
   ease: "none",
   scrollTrigger: trigger
 });
+
+
