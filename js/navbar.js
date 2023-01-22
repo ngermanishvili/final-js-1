@@ -23,7 +23,7 @@ accordionTitles.forEach(title => {
 });
 
 
-fetch('https://reqres.in/api/users?page=2')
+fetch('db/card.json')
   .then(response => response.json())
   .then(data => {
     // data is the parsed JSON object containing the list of users
@@ -37,10 +37,10 @@ fetch('https://reqres.in/api/users?page=2')
       card.classList.add('card');
       // set the user's name and avatar
       card.innerHTML = `
-        <img src="${user.avatar}" />
+        <img src="${user.img}" />
         <div class="card-info">
           <h6>${user.first_name} ${user.last_name}</h6>
-          <span>Personal Trainer</span>  
+          <span>${user.tittle_job}</span> 
           <div class="social-icon">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>

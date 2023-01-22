@@ -1,0 +1,41 @@
+{
+    "addresses": [
+      {
+        "title": "TEAM ONYX !",
+        "category": "ჩვენი ჯგუფის თითოეული წევრი მზად არის მაქსიმალურად დაგიდგეთ გვერდში და დაგეხმაროთ სხეულის სწორად განვითარებაში და ტრანსფორმაციაში, შემოგვიერთდი და გახდი ჩვენი გუნდის წევრი !",
+        "imageSrc": "https://www.firstclasspt.com/wp-content/uploads/2021/11/Best-Personal-Trainer-in-Toronto.jpg",
+        "link": "#1"
+      },
+      {
+        "title": "მარიამი",
+        "category": "იოგა, კვების რაციონის შედგენა",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733550281-K4V0D7Q0Z34FQIPY87SR/3-01.jpg?format=1000w",
+        "link": "#2"
+      },
+      {
+        "title": "ბარბარე",
+        "category": "პალატესი",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1605788439784-2W0V5QN5UDSFJFMSY0KW/pilates+class.png?format=1000w",
+        "link": "#3"
+      },
+      {
+        "title": "ლუკა",
+        "category": "პერსონალური ინსტრუქტორი ",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733452749-AWMPY7D29U2LWCTJSRS7/1-01-2.jpg?format=1000w",
+        "link": "#3"
+      },
+      {
+        "title": "ანა",
+        "category": "ფიტნეს ინსტრუქტორი",
+        "imageSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "link": "#3"
+      },
+      {
+        "title": "ლაშა",
+        "category": "იოგა ინსტრუქტორი",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733518755-DN8EIR6KTKIBLYAY2GVR/5-01.jpg?format=1000w",
+        "link": "#3"
+      }
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "data": [
+      {
+        "first_name": "ლაშა",
+        "last_name": "კაპანაძე",
+        "tittle_job": "ფიტნეს ინსტრუქტორი",
+        "img": "https://s30studio.com.au/wp-content/uploads/2022/05/Braydon-Andrews-1.jpg"
+
+      },
+      {
+        "first_name": "მარიამ",
+        "last_name": "გიორგაძე",
+        "tittle_job": "იოგა ინსტრუქტორი",
+        "img": "https://s30studio.com.au/wp-content/uploads/2022/05/Cailtin-Betti-1.jpg"
+
+      },
+      {
+        "first_name": "ელენე",
+        "last_name": "თაბუკაშვილი",
+        "tittle_job": "ჯგუფური ვარჯიშები",
+        "img": "https://s30studio.com.au/wp-content/uploads/2022/05/Roxy-Visser-1.jpg"
+
+      },
+      {
+        "first_name": "ლუკა",
+        "last_name": "გორგოძე",
+        "tittle_job": "ფიტნეს ინსტრუქტორი, <br> კვების რაციონის შედგენა",
+        "img": "https://s30studio.com.au/wp-content/uploads/2022/05/Cortney-Iverson-1.jpg"
+
+      },
+      {
+        "first_name": "დავით",
+        "last_name": "ირემაშვილი",
+        "tittle_job": "საკვები დანამატები",
+        "img": "https://s30studio.com.au/wp-content/uploads/2022/05/Matthew-Sully-1.jpg"
+
+      },
+      {
+        "first_name": "ლაშა",
+        "last_name": "კაპანაძე",
+        "tittle_job": "იოგა ინსტრუქტორი",
+        "img": "img/avatar-1.webp"
+
+      }
+    ]
+  }
+  
