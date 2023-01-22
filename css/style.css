@@ -486,7 +486,7 @@ display: none;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 0;
+  z-index: 999;
 }
 
 .icon-bar a {
@@ -501,6 +501,7 @@ display: none;
   transition: all 0.5s linear;
   transform: translateX(-14.5rem);
 }
+
 
 .icon-bar a:hover {
   transform: translateX(0);
@@ -1447,7 +1448,6 @@ h6{
   color: #fff;
   justify-content: center;
   align-items: center;
-
 }
 
 .items-grid {
@@ -1611,13 +1611,7 @@ h6{
 /* ////
    */
 
-/* .splide__slide img {
-  width: 100%;
- aspect-ratio: 2/2;
-  margin-top: 50px;
-  object-fit: cover;
-  padding: 20px;
-} */
+
 
 /* /// */
 
@@ -1777,7 +1771,7 @@ input {
 
 
 
-/* Main styles */
+/* როგორია შენი გამოცდილება ? */
 .fr {
   animation: fade-slide-in 0.6s ease-out;
   padding: 0 1.5em;
@@ -1952,6 +1946,14 @@ input {
   }
 }
 
+/* // slider */
+.splide__slide img{
+  width: 100%;
+ aspect-ratio: 2/2;
+  margin-top: 50px;
+  object-fit: cover;
+  padding: 20px;
+}
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
@@ -2629,6 +2631,16 @@ color: #89dfb8;
 
 
 /* //////gallery */
+.gallery-h2-content {
+  margin-top: 100px;
+   background-color: rgb(0, 0, 0);
+   color: #171717;
+   display: flex;
+   color: #fff;
+   justify-content: center;
+   align-items: center;
+ }
+
 .image-gallery {
   width: 100%;
   max-width: 950px;
