@@ -14,18 +14,18 @@ ScrollSmoother.create({
 
 
 
-// Select the element
-const parallax = document.querySelector(".parallax");
+// // Select the element
+// const parallax = document.querySelector(".parallax");
 
-// Create the scrollTrigger
-const trigger = gsap.utils.scrollTrigger.create({
-  trigger: parallax,
-  start: "top bottom",
-  end: "bottom top",
-  scrub: true,
-  pin: true,
-  anticipatePin: 1
-});
+// // Create the scrollTrigger
+// const trigger = gsap.utils.scrollTrigger.create({
+//   trigger: parallax,
+//   start: "top bottom",
+//   end: "bottom top",
+//   scrub: true,
+//   pin: true,
+//   anticipatePin: 1
+// });
 
 // Create the tween
 gsap.to(parallax, {
