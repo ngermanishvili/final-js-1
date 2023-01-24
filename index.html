@@ -19,10 +19,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/splide.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/splide.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="splide.min.js"></script>
 
 
   <title>onyx-fitness</title>
@@ -31,114 +33,151 @@
 <body class="body-gallerea">
   <div id="smooth-wrapper">
     <div id="smooth-content">
-  <header>
-    <div class="header-main">
-      <a href="">
-        <h1 class="logo">
-          <p> <span>onyx</span> fitness</p>
-        </h1>
-      </a>
-      <div class="side-menu">
-        <nav class="navbar" id="idnavbar">
-          <ul class="ul-style">
-            <li id="listing">
-              <a href="#">onyx</a>
-            </li>
-            <li>
-              <a href="#">მთავარი</a>
-            </li>
-            <li>
-              <a href="#">სიახლეები</a>
-            </li>
-            <li>
-              <a href="#">კურსები</a>
-            </li>
-            <li>
-              <a href="#">პერსონალური ვარჯიშები</a>
-            </li>
-          </ul>
-            
-          </nav>
-       
-
-      </div>
-      <div class="burgBar" id="idburger">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-      </div>
-      <div class="btn-div-1">
-        <button class="btn btn1">ავტორიზაცია</button>
-        <button class="btn btn2">რეგისტრაცია</button>
-      </div>
-    </div>
+      <header>
+        <div class="header-main">
+          <a href="">
+            <h1 class="logo">
+              <p> <span>onyx</span> fitness</p>
+            </h1>
+          </a>
+          <div class="side-menu">
+            <nav class="navbar" id="idnavbar">
+              <ul class="ul-style">
+                <li id="listing">
+                  <a href="#">onyx</a>
+                </li>
+                <li>
+                  <a href="#">მთავარი</a>
+                </li>
+                <li onclick = "scrollToElement('.card-container#scrollFromTop')">
+                  <a href="#"> ინსტრუქტორები</a>
+                </li>
+                <li onclick = "scrollToElement('.wrapper-pricing#scrollFromTop')">
+                  <a href="#">ფასდაკლებები</a>
+                </li>
+                <li onclick = "scrollToElement('.image-gallery#scrollFromTop')"> 
+                  <a href="#">პერსონალური ვარჯიშები</a>
+                </li>
+              </ul>
+              <!-- <li>
+            <a href="#">რეგისტრაცია/a>
+          </li>
+          <li>
+            <a href="#">ავტორიზაცია</a>
+          </li> -->
+            </nav>
 
 
-  </header>
-
-
-  <main>
-
-    
-    <section>
-      <div class="video-container">
-        <h2 class="sheni-cvlileba">შენი ცვლილება იწყება აქ !</h2>
-        <img class="main-cont-f1" src="img/onyx-btstp-pics/Onyx_033.jpg" alt="content">
-      </div>
-    </section>
-   
-
-    <section class="loader-sect">
-      <div class="loader">
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        </div>
-  </section>
- 
-    <section>
-    <div class="row">
-      <h3>რატომ ონიქსი?</h3>
-      <div class="content-3-training">
-        <video class="main-custom-video" autoplay muted loop playsinline>
-          <source src="img/workout.mp4" type="video/mp4">
-        </video>
-        <div class="text-window">
-          <div class="onyx-content-section">
-            <h2><span class="h2-span-0">შენი</span> <span class="h2-span-1">ცვლილება</span> <span class="h2-span-0">
-                იწყება</span> <span class="h2-span-1"> აქ !</span></h2>
-            <p class="content-onyx-01">ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში <br> ვქმნით
-              თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
-              საინტერესო, კომფორტული და გამოწვევებით სავსეა.
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="burgBar" id="idburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <div class="btn-div-1">
+
+            <div class="input-group">
+              <button class="btn-authorization btn-authorization-1"
+                onclick="scrollToElement('.auth-form-container#scrollFromTop')">რეგისტრაცია</button>
+              <input type="email" class="input" id="Email" name="Email" placeholder="ელ-ფოსტა" autocomplete="off">
+              <input class="button--submit" value="გამოგვიწერთ" type="submit">
+            </div>
+
+          </div>
 
 
-    <!--  -->
-<!-- //// საჭირო კონტენტი  -->
-    <!-- <div>
+      </header>
+
+
+      <main>
+
+
+        <section>
+          <div class="video-container">
+            <h2 class="sheni-cvlileba">შენი ცვლილება იწყება აქ !</h2>
+            <img class="main-cont-f1" src="img/onyx-btstp-pics/Onyx_033.jpg" alt="content">
+          </div>
+        </section>
+
+
+        <section class="loader-sect">
+          <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row">
+            <h3>რატომ ონიქსი?</h3>
+            <div class="content-3-training">
+              <video class="main-custom-video" autoplay muted loop playsinline>
+                <source src="img/workout.mp4" type="video/mp4">
+              </video>
+              <div class="text-window">
+                <div class="onyx-content-section">
+                  <h2><span class="h2-span-0">შენი</span> <span class="h2-span-1">ცვლილება</span> <span
+                      class="h2-span-0">
+                      იწყება</span> <span class="h2-span-1"> აქ !</span></h2>
+                  <p class="content-onyx-01">ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში <br>
+                    ვქმნით
+                    თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+                    საინტერესო, კომფორტული და გამოწვევებით სავსეა.
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <!-- loader -->
+           <section class="loader-02">
+            <div style="--i:4" class="slider">
+            </div>
+            <div style="--i:4" class="slider">
+            </div>
+            <div style="--i:4" class="slider">
+            </div>
+          </section>
+        
+          <!--  -->
+          <!-- //// საჭირო კონტენტი  -->
+          <!-- <div>
     <h2 class="sheni-cvlileba-01">შენი ცვლილება იწყება აქ !</h2>
   </div> -->
-  
-    <section>
-      <div class="loader">
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
-        <div class="loader-square"></div>
+<section>
+  <h2 class="gallery-h2-content">განავითარე შესაძლებლობი</h2>
+  <!-- <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+    <div class="wheel"></div>
+    <div class="hamster">
+      <div class="hamster__body">
+        <div class="hamster__head">
+          <div class="hamster__ear"></div>
+          <div class="hamster__eye"></div>
+          <div class="hamster__nose"></div>
         </div>
-        <h2 class="loader-h2">პერსონალური ვარჯიშები</h2>
+        <div class="hamster__limb hamster__limb--fr"></div>
+        <div class="hamster__limb hamster__limb--fl"></div>
+        <div class="hamster__limb hamster__limb--br"></div>
+        <div class="hamster__limb hamster__limb--bl"></div>
+        <div class="hamster__tail"></div>
+      </div>
+    </div>
+    <div class="spoke"></div>
+  </div> -->
+  <div class="loadingspinner">
+    <div id="square1"></div>
+    <div id="square2"></div>
+    <div id="square3"></div>
+    <div id="square4"></div>
+    <div id="square5"></div>
+  </div>
   </section>
-<!-- <section>
+          <!-- <section>
   
   <div class="body-smile">
     <form class="fr" action="">
@@ -156,473 +195,533 @@
   </div>
 </section> -->
 
-    <section class="splide" aria-label="Splide Basic HTML Example">
-      <div class="splide__track">
-          <ul class="splide__list">
-              <li class="splide__slide"><img src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733452749-AWMPY7D29U2LWCTJSRS7/1-01-2.jpg?format=1000w" alt=""></li>
-              <li class="splide__slide"><img src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733423512-APE64UMVOP59I6YWGAHQ/6-01.jpg?format=1000w" alt=""></li>
-              <li class="splide__slide"><img src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733563626-WK7BWHWXVGVJQTUP238B/2-01.jpg?format=1000w" alt=""></li>
-              <li class="splide__slide"><img src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586288649527-3HKAJILEQWDJ9WQLHAIQ/%E1%83%A9%E1%83%90%E1%83%AF%E1%83%93%E1%83%9D%E1%83%9B%E1%83%94%E1%83%91%E1%83%98?format=1000w" alt=""></li>
-              <li class="splide__slide"><img src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586339568236-FLVJX5TNK271ISTJGC9E/%E1%83%91%E1%83%9D%E1%83%A5%E1%83%A1%E1%83%98?format=1000w" alt=""></li>
-          </ul>
-      </div>
-      
-  </section>
-
-
-
-      <section class="accordion-section">
-        <div class="acc-accordion">
-          <h2 class="accordion-title"><span class="h2-span">შენი</span> ცვლილება <span class="h2-span"> იწყება</span> აქ
-            !</h2>
-          <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
-            თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
-            საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
-        </div>
-        <div class="acc-accordion">
-          <h2 class="accordion-title">
-            <span class="accordion-p"> არ შეუშინდე გამოწვევებს </span>
-          </h2>
-          <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
-            თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
-            საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
-        </div>
-      </section>
-
-
-
-      <!-- //PARALLAX SECTION -->
-      
-      <!-- // CONTENT R VIDEO  -->
-
-      <section class="loader-sect-02">
-        <div class="loader">
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          <div class="loader-square"></div>
-          </div>
-    </section>
-
-    <div class="parallax">
-      <div class="image-parent">
-        <h2 class="h2h2">ჩვენი გუნდი ყოველთვის მზად არის იზრუნოს შენს ტრანსფორმაციაზე !</h2>
-        <img class="img-cont" data-speed="auto" src="https://kinective.com/wp-content/uploads/2019/11/render-rooftop@2x-1.jpg" alt="" />
-    </div>
-    
-    <!-- ფოტო-ლინკები -->
-    <!-- https://kinective.com/wp-content/uploads/2019/10/blog-and-events@2x.jpg
-    https://kinective.com/wp-content/uploads/2022/11/man.png -->
-
-
-        <!-- // card container -->
-        <section>
-          <h3 class="team-members-h2"></h3>
-          <div class="card-container">
-            <div class="card">
-              <img src="https://s30studio.com.au/wp-content/uploads/2022/05/Oscar-Winter-1.jpg" alt="img"/>
-              <div class="card-info">
-                <h6>თამაზ გურული</h6>
-                <span>graphic designer</span>
-                <div class="social-icon">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-              </div>
-        </div>
-      </div>
-      </section>
-
-      <section>
-  
-        <div class="body-smile">
-          <form class="fr" action="">
-            <label class="fr__label" for="face-rating">როგორია შენი გამოცდილება ფიტნესის სფეროში?</label>
-            <div class="fr__face" role="img" aria-label="Straight face">
-              <div class="fr__face-right-eye" data-right></div>
-              <div class="fr__face-left-eye" data-left></div>
-              <div class="fr__face-mouth-lower" data-mouth-lower></div>
-              <div class="fr__face-mouth-upper" data-mouth-upper></div>
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733452749-AWMPY7D29U2LWCTJSRS7/1-01-2.jpg?format=1000w"
+                    alt=""></li>
+                <li class="splide__slide"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733423512-APE64UMVOP59I6YWGAHQ/6-01.jpg?format=1000w"
+                    alt=""></li>
+                <li class="splide__slide"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733563626-WK7BWHWXVGVJQTUP238B/2-01.jpg?format=1000w"
+                    alt=""></li>
+                <li class="splide__slide"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586288649527-3HKAJILEQWDJ9WQLHAIQ/%E1%83%A9%E1%83%90%E1%83%AF%E1%83%93%E1%83%9D%E1%83%9B%E1%83%94%E1%83%91%E1%83%98?format=1000w"
+                    alt=""></li>
+                <li class="splide__slide"><img
+                    src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586339568236-FLVJX5TNK271ISTJGC9E/%E1%83%91%E1%83%9D%E1%83%A5%E1%83%A1%E1%83%98?format=1000w"
+                    alt=""></li>
+              </ul>
             </div>
-            <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
-          </form>
-          <input class="share-info-smile" type="text" placeholder="გაგვიზიარე შენი გამოცდილება">
-          <button class="share-info-btn">მოგვწერე</button>
-        </div>
-      </section>
-        <!-- ფოტო-ლინკები -->
 
-        
-    
-          <section>
-            <h2 class="gallery-h2-content">ონიქსი გალერეა</h2>
-            <div class="image-gallery">
-              <div class="image-box">
-                <img src="https://images.unsplash.com/photo-1603503363848-6952525df449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="img.jpg" />
-                <div class="overlay">
-                  <div class="details">
-                    <h3 class="title">
-                      <a href="#">ელენე</a>
-                    </h3>
-                    <span class="category">
-                      <a href="#">სერთიფიცირებული პერსონალური ვ</a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            
-        
-      <!-- <div class="page-container">
-        <div class="items-grid">
-          <div class="item item1">
-            <img src="" alt="image1" class="item__img" />
-            <h1 class="item__title">ონიქსი</h1>
-          </div>
-          <div class="item item2">
-            <img src="" alt="image2" class="item__img" />
-            <h1 class="item__title">ჯანსაღი</h1>
-          </div>
-          <div class="item item3">
-          <img src="" alt="image3" class="item__img" />
-          <h1 class="item__title">სხეულის</h1>
-        </div>
-
-        <div class="item item4">
-          <img src="" alt="image4" class="item__img" />
-          <h1 class="item__title">საიდუმლოს</h1>
-        </div>
-
-        <div class="item item5">
-          <img src="" alt="image5" class="item__img" />
-          <h1 class="item__title">იპოვნი</h1>
-        </div>
-
-        <div class="item item6">
-          <img src="" alt="image6" class="item__img" />
-          <h1 class="item__title">აქ</h1>
-        </div>
-    </section>
-    <div class="shuffle-btn-dv">
-      <button class="shuffle-btn">შეცვალე&nbsp;ფოტოები</button> -->
-  <!-- </div> -->
           </section>
 
 
 
-  
-  
-      <!-- //  CONTENT 5 ITEMS  -->
-<!-- 
-      <section>
-        <div class="container">
-          <div class="row routine-01">
-            <div class="col-md-3">
-              <img src="img/onyx-btstp-pics/Icon-24-7-04.png" class="img-fluid" alt="#img">
-              <h4>შენზე მორგებული გრაფიკი</h4>
+          <section class="accordion-section">
+            <div class="acc-accordion">
+              <h3 class="accordion-title"><span class="h2-span">შენი</span> ცვლილება <span class="h2-span">
+                  იწყება</span> აქ
+                !</h3>
+              <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
+                თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+                საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
             </div>
-            <div class="col-md-3">
-              <img src="img/onyx-btstp-pics/Icon-Calendar-03.png" class="img-fluid" alt="#img">
-              <h4>24/7 ხელმისაწვდომი პროგრამა</h4>
+            <div class="acc-accordion">
+              <h3 class="accordion-title">
+                <span class="accordion-p"> არ შეუშინდე გამოწვევებს </span>
+              </h3>
+              <p class="accordion-content"> ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით
+                თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
+                საინტერესო, კომფორტული და გამოწვევებით სავსეა </p>
             </div>
-            <div class="col-md-3">
-              <img src="img/onyx-btstp-pics/Icon-Groups-02.png" class="img-fluid" alt="#img">
-              <h4>შემოუერთდი ჩვენს გუნდს </h4>
+          </section>
+
+
+
+          <!-- //PARALLAX SECTION -->
+
+          <!-- // CONTENT R VIDEO  -->
+
+          
+          <div class="loadingspinner">
+            <div id="square1"></div>
+            <div id="square2"></div>
+            <div id="square3"></div>
+            <div id="square4"></div>
+            <div id="square5"></div>
+          </div>
+
+          <!--  -->
+          <div class="parallax">
+            <div class="image-parent">
+              <h2 class="h2h2">ჩვენი გუნდი ყოველთვის მზად არის იზრუნოს შენს ტრანსფორმაციაზე !</h2>
+              <img class="img-cont" data-speed="auto"
+                src="https://kinective.com/wp-content/uploads/2019/11/render-rooftop@2x-1.jpg" alt="" />
             </div>
-            <div class="col-md-3">
-              <img src="img/onyx-btstp-pics/shtanga-pic-01.png" class="img-fluid" alt="#img">
-              <h4>პერსონალური ვარჯიშები</h4>
+
+            <!-- ფოტო-ლინკები -->
+            <!-- https://kinective.com/wp-content/uploads/2019/10/blog-and-events@2x.jpg
+    https://kinective.com/wp-content/uploads/2022/11/man.png -->
+
+
+            <!-- // card container -->
+            <h2 class="gallery-h2-content">ონიქს ინსტრუქტორები</h2>
+            <section>
+              <h3 class="team-members-h2"></h3>
+              <div class="card-container" id="scrollFromTop">
+                <div class="card">
+                  <img src="https://s30studio.com.au/wp-content/uploads/2022/05/Oscar-Winter-1.jpg" alt="img" />
+                  <div class="card-info">
+                    <h6>თამაზ გურული</h6>
+                    <span>იოგა ინსტრუქტორი</span>
+                    <div class="social-icon">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 class="gallery-h2-content">ონიქსი</h2>
+              <div class="body-smile">
+                <form class="fr" action="">
+                  <label class="fr__label" for="face-rating">როგორია შენი გამოცდილება ფიტნესის სფეროში?</label>
+                  <div class="fr__face" role="img" aria-label="Straight face">
+                    <div class="fr__face-right-eye" data-right></div>
+                    <div class="fr__face-left-eye" data-left></div>
+                    <div class="fr__face-mouth-lower" data-mouth-lower></div>
+                    <div class="fr__face-mouth-upper" data-mouth-upper></div>
+                  </div>
+                  <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+                </form>
+                <input class="your-experience" type="text" name="text" class="input" placeholder="გაგვიზიარე შენი გამოცდილება....">
+                <button class="send-us-info">
+                  <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <span>მოგვწერე</span>
+                </button>
+              </div>
+
+              <section>
+              <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+                <div class="wheel"></div>
+                <div class="hamster">
+                  <div class="hamster__body">
+                    <div class="hamster__head">
+                      <div class="hamster__ear"></div>
+                      <div class="hamster__eye"></div>
+                      <div class="hamster__nose"></div>
+                    </div>
+                    <div class="hamster__limb hamster__limb--fr"></div>
+                    <div class="hamster__limb hamster__limb--fl"></div>
+                    <div class="hamster__limb hamster__limb--br"></div>
+                    <div class="hamster__limb hamster__limb--bl"></div>
+                    <div class="hamster__tail"></div>
+                  </div>
+                </div>
+                <div class="spoke"></div>
+              </div>
+            </section>
+            <!-- ფოტო-ლინკები -->
+
+            <section>
+              <div class="row">
+                <div class="content-3-training">
+                  <div class="video-container">
+                    <div class="text-window">
+                      <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ
+                        შესაძლებლობებს, სადაც
+                        სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და
+                        გამოწვევებით
+                        სავსეა... <a href="#">მეტის ნახვა</a></p>
+                    </div>
+                    
+                  </div>
+                  <video class="main-custom-video" autoplay muted loop playsinline>
+                    <source src="img/anywhere.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              
+              
+            </section>
+
+            <section>
+              <h2 class="gallery-h2-content">ონიქსი გალერეა</h2>
+              <div class="image-gallery" id="scrollFromTop">
+                <div class="image-box">
+                  <img
+                    src="https://images.unsplash.com/photo-1603503363848-6952525df449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                    alt="img.jpg" />
+                  <div class="overlay">
+                    <div class="details">
+                      <h3 class="title">
+                        <a href="#">ელენე</a>
+                      </h3>
+                      <span class="category">
+                        <a href="#">სერთიფიცირებული პერსონალური ვ</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+
+
+            <!-- /////////prices -->
+            <h2 class="gallery-h2-content sales-card">ფასდაკლებები აბონიმენტზე</h2>
+            <section>
+
+              <div class="wrapper-pricing" id="scrollFromTop">
+                <div class="table basic">
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">₾</span>
+                        <span class="price">29</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">2 ვარჯიში კვირაში</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ჯგუფური ვარჯიშები</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">კვების რაციონის შედგენა</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                  </ul>
+                  <div class="btn-card"><button>Purchase</button></div>
+                </div>
+
+                <div class="table premium">
+                  <div class="ribbon"><span>Recommend</span></div>
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">₾</span>
+                        <span class="price">59</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">3 ვარჯიში კვირაში</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ჯგუფური ვარჯიშები</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">კვების რაციონის შედგენა</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                  </ul>
+                  <div class="btn-card"><button>Purchase</button></div>
+                </div>
+
+
+                <div class="table ultimate">
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">₾</span>
+                        <span class="price">99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">ინსტურქტორთან კონსულტაცია</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ჯგუფური ვარჯიშები</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">კვების რაციონის შედგენა</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">ონლაინ კონსულტაცია 24/7</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                  </ul>
+                  <div class="btn-card"><button>Purchase</button></div>
+                </div>
+              </div>
+            </section>
+
+            
+
+            <section>
+              <h2 class="validation-h2">გაიარე რეგისტრაცია ონიქსზე</h2>
+              <div class="auth-form-container " id="scrollFromTop">
+                <form action="" id="form-registration" method="GET">
+                  <div class="form-wraper">
+                    <label class="text-input-label" for="fname">სახელი</label>
+                    <input class="text-input" type="text" id="fname" name="username" placeholder="ჩაწერეთ სახელი" />
+                    <span class="error-text" id="error_username"></span>
+                  </div>
+
+                  <div class="form-wraper">
+                    <label class="text-input-label" for="lname">გვარი</label>
+                    <input class="text-input" type="text" id="lname" name="lastname" placeholder="ჩაწერეთ სახელი" />
+                    <span class="error-text" id="error_lastname"></span>
+                  </div>
+
+                  <div class="form-wraper password-form">
+                    <label class="text-input-label" for="passw1">პაროლი</label>
+                    <input class="text-input password-input" type="password" id="passw1" name="mypassword"
+                      placeholder="ჩაწერეთ პაროლი" />
+                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon1"></i>
+                    <span class="error-text" id="error_mypassword"></span>
+                  </div>
+                  <div>
+
+                  </div>
+                  <div class="form-wraper password-form-2">
+                    <label class="text-input-label" for="passw2">გაიმეორეთ პაროლი</label>
+                    <input class="text-input password-input" type="password" id="passw2" name="mypassword2"
+                      placeholder="გაიმეორეთ პაროლი" />
+                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon2"></i>
+                    <span class="error-text" id="error_mypassword2"></span>
+                  </div>
+                  <div class="form-wraper">
+                    <label for="myemail-label">ელ-ფოსტა</label>
+                    <input class="emailField" type="email" id="myemail" name="email" placeholder="ელ-ფოსტა" />
+                    <span class="error-text" id="error_myemail"></span>
+                  </div>
+
+                  <div class="age-div">
+                    <input class="age-input" type="radio" name="age" id="age1" class="age" />
+                    <label for="age1">მამრობითი</label>
+                    <input class="age-input-2" type="radio" id="age2" name="age" class="age" />
+                    <label for="age2">მდედრობითი</label>
+                    <span class="error-text" id="error_age"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="text-input-label" for="birthDate">დაბადების ადგილი</label>
+                    <select class="locations">
+                      <option>საქართველო</option>
+                      <option>საბერძნეთი</option>
+                      <option>ამერიკა</option>
+                      <option>ბრიტანეთი</option>
+                    </select>
+                  </div>
+                  <div class="terms-n-conds">
+                    <label class="container-checkbox">
+                      <input class="#" type="checkbox" name="agree" id="agree" checked="checked"/>
+                      <div class="checkmark"></div>
+                  </label>
+                  
+                    <label class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
+                    <span class="error-text" id="error_agree"></span>
+                  </div>
+                  <img class="validation-img-02" src="img/fitness-removebg-preview.png" alt="">
+                  <button class="reg reg-primary w-100 mb-15">რეგისტრაცია</button>
+                  <img class="validation-img" src="img/fitness-removebg-preview.png" alt="">
+                </form>
+              </div>
+            </section>
+            
+            <section class="last-one">
+            <section class="section1">ONYX</section>
+            <section class="section2">ფიტნესი</section>
+          </section>
+         
+
+            <!-- ////just black div for space  -->
+            <section>
+              <div class="space-div"></div>
+            </section>
+
+           <!-- loader -->
+  <section class="loader-02">
+    <div style="--i:0" class="slider">
+    </div>
+    <div style="--i:1" class="slider">
+    </div>
+    <div style="--i:2" class="slider">
+    </div>
+    <div style="--i:3" class="slider">
+    </div>
+    <div style="--i:4" class="slider">
+    </div>
+    <div style="--i:4" class="slider">
+    </div>
+    <div style="--i:1" class="slider">
+    </div>
+    <div style="--i:2" class="slider">
+    </div>
+    <div style="--i:2" class="slider">
+    </div>
+    <div style="--i:3" class="slider">
+    </div>
+    <div style="--i:2" class="slider">
+    </div>
+    <div style="--i:3" class="slider">
+    </div>
+    <div style="--i:2" class="slider">
+    </div>
+    <div style="--i:1" class="slider">
+    </div>
+    <div style="--i:0" class="slider">
+    </div>
+    <div style="--i:4" class="slider">
+    </div>
+  </section>
+
+
+
+
+
+            <!-- contact form  -->
+
+
+
+      </main>
+      <footer class="footer">
+        
+        <div class="container-footer">
+          <div class="row-footer">
+            <div class="footer-col">
+              <h4>ONYX</h4>
+              <ul>
+                <li><a href="#">მთავარი</a></li>
+                <li><a href="#">სიახლეები</a></li>
+                <li><a href="#">კურსები</a></li>
+                <li><a href="#">პერსონალური ვარჯიშები</a></li>
+              </ul>
             </div>
+            <div class="footer-col">
+              <h4>დახმარება</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">ტრენერები</a></li>
+                <li><a href="#">კვების პროგრამა</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>ვირტუალური ტრენერი</h4>
+              <ul>
+                <li><a href="#">რა არის ONYX?</a></li>
+                <li><a href="#">ფასდაკლებები</a></li>
+                <li><a href="#">საკვები დანამატები</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>გამოგვიწერეთ</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            
+      </footer>
+    </div>
+  </div>
+
+  <section>
+
+    <button id="show-contact-btn">დაგვეკონტაქტე</button>
+    <section id="contact-section" style="display: none;">
+      <div class="container-form">
+        <div class="contact-box">
+          <div class="left"></div>
+          <div class="right">
+            <div id="xmark"><i class="fa-solid fa-xmark fa-2x"></i></div>
+            <h2>ონიქსი</h2>
+            <form>
+              <label for="name">სახელი</label>
+              <input type="text" id="name" class="field" placeholder="სახელი">
+              <label for="email">გვარი</label>
+              <input type="text" id="email" class="field" placeholder="ელ-ფოსტა">
+              <label for="phone">ტელეფონი</label>
+              <input type="text" id="phone" class="field" placeholder="ტელეფონი">
+              <label for="message">მოგვწერეთ</label>
+              <textarea id="message" placeholder="მოგვწერეთ შეტყობინება" class="field"></textarea>
+              <button class="btn">გაგზავნა</button>
+            </form>
           </div>
         </div>
-      </section> -->
+      </div>
+    </section>
 
-      <!-- // TV SECTION -->
-
-
-    
-      
-
-
-  <!-- <section>
     <div class="icon-bar">
       <a href="#" class="facebook">
-        click here to visit <i class="fab fa-facebook-square"></i>
+        დააკლიკე და გვესტუმრე <i class="fab fa-facebook-square"></i>
       </a>
 
       <a href="#" class="telegram">
-        click here to visit <i class="fab fa-telegram-plane"></i>
+        დააკლიკე და გვესტუმრე <i class="fab fa-telegram-plane"></i>
       </a>
 
-      <a href="https://www.instagram.com/thapatechnical/" class="instagram">
-        click here to visit <i class="fab fa-instagram"></i>
+      <a href="#" class="instagram">
+        დააკლიკე და გვესტუმრე <i class="fab fa-instagram"></i>
       </a>
 
-      <a href="https://www.instagram.com/thapatechnical/" class="linkedin">
-        click here to visit <i class="fab fa-linkedin"></i>
+      <a href="#" class="linkedin">
+        დააკლიკე და გვესტუმრე <i class="fab fa-linkedin"></i>
       </a>
-     
-      <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" class="youtube">
-        click here to visit <i class="fab fa-youtube-square"></i>
+
+      <a href="#" class="youtube">
+        დააკლიკე და გვესტუმრე <i class="fab fa-youtube-square"></i>
       </a>
     </div>
-  </section> -->
-
-  <!-- <section>
-            <div class="text-column"><h5>Contact info</h5>
-          <p><strong>Kinective Fitness Club </strong></p>
-          <p>1020 Belvidere Street El Paso, TX 79912</p>
-          <p>(915) 260-9895</p>
-          
-          <hr class="line"><class="line">
-          <h5>Fitness Club Hours</h5>
-          <p><strong>Mon - Fri:</strong> 4:45am - 11pm</p>
-          <p><strong>Sat -Sun:</strong> 7am - 7pm</p>
-          <hr class="line">
-          <h5>Kinective kids</h5>
-          <p><strong>Mon - Thur:</strong>  7am - 1pm &amp; 3pm - 9pm</p>
-          <p><strong>Fri:</strong>  7am - 1pm &amp; 3pm - 6pm</p>
-          <p><strong>Sat - Sun:</strong>  8am - 1pm</p></class="line"></div>
-     </div>
-  </section> -->
-
-  <div class="image-parent-01">
-    <div class="image-parent-02">
-      <img class="img-cont" data-speed="auto" src="https://kinective.com/wp-content/uploads/2022/11/man.png" alt="" />
-  </div>
-  <!-- ////video container content 2 -->
-<section>
-  <div class="row">
-    <div class="content-3-training">
-      <video class="main-custom-video" autoplay loop playsinline>
-        <source src="img/anywhere.mp4" type="video/mp4">
-      </video>
-      <div class="text-window">
-        <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით თანაბარ შესაძლებლობებს, სადაც
-          სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და გამოწვევებით
-          სავსეა
-        <div class="span"> </div> <a href="#">მეტის ნახვაა</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <section>
-    <h2 class="validation-h2">გაიარე რეგისტრაცია ონიქსზე</h2>
-    <div class="auth-form-container">
-        <form action="" id="form-registration" method="GET">
-            <div class="form-wraper">
-                <label class="text-input-label" for="fname">სახელი</label>
-                <input class="text-input" type="text" id="fname" name="username" placeholder="ჩაწერეთ სახელი" />
-                <span class="error-text" id="error_username"></span>
-            </div>
-
-            <div class="form-wraper">
-                <label class="text-input-label" for="lname">გვარი</label>
-                <input class="text-input" type="text" id="lname" name="lastname" placeholder="ჩაწერეთ სახელი" />
-                <span class="error-text" id="error_lastname"></span>
-            </div>
-
-            <div class="form-wraper password-form">
-                <label class="text-input-label" for="passw1">პაროლი</label>
-                <input class="text-input password-input" type="password" id="passw1" name="mypassword"
-                    placeholder="ჩაწერეთ პაროლი" />
-                <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon1"></i>
-                <span class="error-text" id="error_mypassword"></span>
-            </div>
-            <div>
-
-            </div>
-            <div class="form-wraper password-form-2">
-                <label class="text-input-label" for="passw2">გაიმეორეთ პაროლი</label>
-                <input class="text-input password-input" type="password" id="passw2" name="mypassword2"
-                    placeholder="გაიმეორეთ პაროლი" />
-                <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon2"></i>
-                <span class="error-text" id="error_mypassword2"></span>
-            </div>
-            <div class="form-wraper">
-                <label for="myemail-label">ელ-ფოსტა</label>
-                <input class="emailField" type="email" id="myemail" name="email" placeholder="ელ-ფოსტა" />
-                <span class="error-text" id="error_myemail"></span>
-            </div>
-
-            <div class="age-div">
-                <input class="age-input" type="radio" name="age" id="age1" class="age" />
-                <label for="age1">მამრობითი</label>
-                <input class="age-input-2" type="radio" id="age2" name="age" class="age" />
-                <label for="age2">მდედრობითი</label>
-                <span class="error-text" id="error_age"></span>
-            </div>
-
-            <div class="form-group">
-                <label class="text-input-label" for="birthDate">დაბადების ადგილი</label>
-                <select class="locations">
-                    <option>საქართველო</option>
-                    <option>საბერძნეთი</option>
-                    <option>ამერიკა</option>
-                    <option>ბრიტანეთი</option>
-                </select>
-            </div>
-            <div class="terms-n-conds">
-                <input class="#" type="checkbox" name="agree" id="agree" />
-                <label class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
-                    <span class="error-text" id="error_agree"></span>
-            </div>
-            <img class="validation-img-02" src="img/fitness-removebg-preview.png" alt="">
-            <button class="reg reg-primary w-100 mb-15">რეგისტრაცია</button>
-            <img class="validation-img" src="img/fitness-removebg-preview.png" alt="">
-        </form>
-    </div>
-</section>
-
-<!-- ////just black div for space  -->
-<section>
-  <div class="space-div"></div>
-</section>
-  
-
-<!-- validation -->
-
-<!-- <section>
-  <div class="icon-bar">
-    <a href="#" class="facebook">
-      click here to visit <i class="fab fa-facebook-square"></i>
-    </a>
-
-    <a href="#" class="telegram">
-      click here to visit <i class="fab fa-telegram-plane"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="instagram">
-      click here to visit <i class="fab fa-instagram"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="linkedin">
-      click here to visit <i class="fab fa-linkedin"></i>
-    </a>
-   
-    <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" class="youtube">
-      click here to visit <i class="fab fa-youtube-square"></i>
-    </a>
-  </div>
-</section> -->
-</main>
-
-
-
-<footer class="footer">
-  <div class="container-footer">
-    <div class="row-footer">
-      <div class="footer-col">
-        <h4>ONYX</h4>
-        <ul>
-          <li><a href="#">მთავარი</a></li>
-          <li><a href="#">სიახლეები</a></li>
-          <li><a href="#">კურსები</a></li>
-          <li><a href="#">პერსონალური ვარჯიშები</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>დახმარება</h4>
-        <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">ტრენერები</a></li>
-          <li><a href="#">კვების პროგრამა</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>ვირტუალური ტრენერი</h4>
-        <ul>
-          <li><a href="#">რა არის ONYX?</a></li>
-          <li><a href="#">ფასდაკლებები</a></li>
-          <li><a href="#">საკვები დანამატები</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>გამოგვიწერეთ</h4>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-</footer>
-</div>
-</div>
-
-
-<section>
-
-  <div class="icon-bar">
-    <a href="#" class="facebook">
-      Lorem ipsum dolor sit amet. <i class="fab fa-facebook-square"></i>
-    </a>
-
-    <a href="#" class="telegram">
-      click here to visit <i class="fab fa-telegram-plane"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="instagram">
-      click here to visit <i class="fab fa-instagram"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="linkedin">
-      click here to visit <i class="fab fa-linkedin"></i>
-    </a>
-   
-    <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" class="youtube">
-      click here to visit <i class="fab fa-youtube-square"></i>
-    </a>
-  </div>
-</section>
-
-<script src="js/gallerycontent.js"></script>
-<script src="js/validation.js"></script>
-<script src="gsap/gsap.min.js"></script>
-<script src="gsap/ScrollTrigger.min.js"></script>
-<script src="gsap/ScrollSmoother.min.js"></script>
-<script src="gsap/gsap.js"></script>
- <script src="smile-emotions.js"></script>
+  </section>
+  <script src="js/scrolldown.js"></script>
+  <script src="js/contact-form.js"></script>
+  <script src="js/gallerycontent.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="gsap/gsap.min.js"></script>
+  <script src="gsap/ScrollTrigger.min.js"></script>
+  <script src="gsap/ScrollSmoother.min.js"></script>
+  <script src="gsap/gsap.js"></script>
+  <script src="smile-emotions.js"></script>
   <script src="js/splide-multiple.js"></script>
   <script src="splide.min.js"></script>
   <script src="js/gallery.js"></script>
   <script src="js/navbar.js"></script>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  
+
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-
-<!-- <section>
-  <div class="icon-bar">
-    <a href="#" class="facebook">
-      Lorem ipsum dolor sit amet. <i class="fab fa-facebook-square"></i>
-    </a>
-
-    <a href="#" class="telegram">
-      click here to visit <i class="fab fa-telegram-plane"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="instagram">
-      click here to visit <i class="fab fa-instagram"></i>
-    </a>
-
-    <a href="https://www.instagram.com/thapatechnical/" class="linkedin">
-      click here to visit <i class="fab fa-linkedin"></i>
-    </a>
-   
-    <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" class="youtube">
-      click here to visit <i class="fab fa-youtube-square"></i>
-    </a>
-  </div>
-</section> -->
 
 </body>
 

@@ -1,13 +1,4 @@
-// var splide = new Splide( '.splide', {
-//   type: "loop",
-//   autoplay: true,
-//   interval: 1500,
-//   direction: 'ttb',
-//   height   : '40rem',
-//   wheel    : true,
-// } );
 
-// splide.mount();
 
 var splide = new Splide( '.splide', {
   type: "loop",
@@ -16,9 +7,13 @@ var splide = new Splide( '.splide', {
   direction: 'rtl',
   perPage  : 3,
   height   : '40rem',
+  autoScroll: {
+    speed: 1,
+  },
 } );
 
 splide.mount();
+
 
 // You need to transpile this code
 // import Splide from '@splidejs/splide';

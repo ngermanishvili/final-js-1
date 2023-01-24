@@ -28,10 +28,10 @@ ScrollSmoother.create({
 // });
 
 // Create the tween
-gsap.to(parallax, {
-  backgroundPositionY: "20%",
-  ease: "none",
-  scrollTrigger: trigger
-});
+// gsap.to(parallax, {
+//   backgroundPositionY: "20%",
+//   ease: "none",
+//   scrollTrigger: trigger
+// });
 
 
