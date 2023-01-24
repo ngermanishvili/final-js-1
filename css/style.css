@@ -246,7 +246,7 @@ nav {
 
 
 .text-window {
-  width: 800px;
+  width: 350px;
   height: 500px;
   font-size: 16px;
   overflow: auto;
@@ -1470,11 +1470,17 @@ input {
 
 /* // slider */
 .splide__slide img {
+  max-width: 800px;
   width: 100%;
-  aspect-ratio: 2/2;
+  aspect-ratio: 1/1;
   margin-top: 50px;
   object-fit: cover;
   padding: 20px;
+}
+.splide__arrow {
+  margin-top: 50px;
+  background-color: #f33f03;
+  opacity: 0.9;
 }
 
 /* Dark theme */
