@@ -5,6 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Onyx">
+  <meta name="keywords"
+    content="fitness, onyx, food, healthy, workout, training, gym, sport, new gym, onyx, georgia, abs, workouts">
+  <meta name="keywords"
+    content="ფიტნესი, ონიქსი, კვება, ჯანსაღი, ვარჯიში, სავარჯიშო, დარბაზი, სპორტი, ახალი დარბაზი, სპორტ-დარბაზი, საქართველო, ვარჯიშები, ათლეტი">
+  <meta property="og:description" content="ონიქს ფიტნესი - დაიპყარი სპორტული მწვერვალები ჩვენთან ერთად" />
+  <meta property="og:url" content="https://germana1337.github.io/final-js-1/" />
+  <meta property="og:title" content="ფიტნეს სივრცე" />
+  <meta name="description"
+    content="ჩადექით ფორმაში Onyx Fitness-ის უახლესი სპორტდარბაზით და სავარჯიშო პროგრამებით საქართველოში. მიაღწიეთ თქვენს ფიტნეს მიზნებს ჩვენს ექსპერტ ტრენერებთან და ჯანსაღი კვების რაციონებთან ერთად.">
+  <meta property="og:image"
+    content="https://www.churchproduction.com/downloads/12832/download/Onyx%20Logo.jpg?cb=2b27345cbc13ef85bc4518305f40ec2c" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,79 +39,77 @@
   <link rel="stylesheet" href="css/responsive.css">
   <!-- ///////IT'S NOT WORKING IN SCRIPT SECCTION BOTTOM-THAT'S WHY THIS SPLIDE-JS.HERE(()) -->
   <script src="splide.min.js"></script>
-  <title>ONYX ფიტნესი</title>
+  <title>ონიქს ფიტნესი - მიაღწიეთ თქვენს ფიტნეს ოცნებებს ონიქსთან ერთად !</title>
 </head>
 
 <body class="body-gallerea">
+  <!-- HEADER-STARTS-HERE -->
+  <header class="header-opacity">
+    <div class="header-main">
+      <a href="">
+        <h3 class="logo">
+          <p> <span>onyx</span> fitness</p>
+        </h3>
+      </a>
+      <div class="side-menu">
+        <nav class="navbar" id="idnavbar">
+          <ul class="ul-style">
+            <li id="listing">
+              <a href="#">onyx</a>
+            </li>
+            <li>
+              <a href="#">მთავარი</a>
+            </li>
+            <li onclick="scrollToElement('.card-container.card-container')">
+              <a href="#"> ინსტრუქტორები</a>
+            </li>
+            <li onclick="scrollToElement('.wrapper-pricing.wrapper-pricing')">
+              <a href="#">ფასდაკლებები</a>
+            </li>
+            <li onclick="scrollToElement('.image-gallery.image-gallery')">
+              <a href="#">პერსონალური ვარჯიშები</a>
+            </li>
+          </ul>
+          <li class="registration-responsive">
+            <a href="#">რეგისტრაცია</a>
+          </li>
+        </nav>
+      </div>
+      <!-- /////////BURGER-BAR-SECTION//////////// -->
+      <section>
+        <div class="burgBar" id="idburger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </section>
+
+      <!-- ///////REGISTRATION#SUBSCRIBE-BTNS-SECTION/////// -->
+      <section>
+        <div class="btn-div-1">
+          <div class="input-group">
+            <button class="btn-authorization btn-authorization-1"
+              onclick="scrollToElement('.auth-form-container.auth-form-container')">რეგისტრაცია</button>
+            <input type="email" class="input" id="Email" name="Email" placeholder="ელ-ფოსტა" autocomplete="off">
+            <input class="button--submit" value="გამოგვიწერთ" type="submit">
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+
   <!-- ////SMOOTSCROLL-DIV-SMOOTH-WRAPPER-SMOOTH-CONTENT-DIVS-DO-NOT-TOUCH//// -->
   <div id="smooth-wrapper">
     <div id="smooth-content">
-      <!-- ////SMOOTSCROLL-DIV-SMOOTH-WRAPPER-SMOOTH-CONTENT-DIVS-DO-NOT-TOUCH//// -->
-
-      <!-- HEADER-STARTS-HERE -->
-      <header>
-        <div class="header-main">
-          <a href="">
-            <h3 class="logo">
-              <p> <span>onyx</span> fitness</p>
-            </h3>
-          </a>
-          <div class="side-menu">
-            <nav class="navbar" id="idnavbar">
-              <ul class="ul-style">
-                <li id="listing">
-                  <a href="#">onyx</a>
-                </li>
-                <li>
-                  <a href="#">მთავარი</a>
-                </li>
-                <li onclick="scrollToElement('.card-container.card-container')">
-                  <a href="#"> ინსტრუქტორები</a>
-                </li>
-                <li onclick="scrollToElement('.wrapper-pricing.wrapper-pricing')">
-                  <a href="#">ფასდაკლებები</a>
-                </li>
-                <li onclick="scrollToElement('.image-gallery.image-gallery')">
-                  <a href="#">პერსონალური ვარჯიშები</a>
-                </li>
-              </ul>
-              <li class="registration-responsive">
-                <a href="#">რეგისტრაცია</a>
-              </li>
-            </nav>
-          </div>
-          <!-- /////////BURGER-BAR-SECTION//////////// -->
-          <section>
-            <div class="burgBar" id="idburger">
-              <div class="line line1"></div>
-              <div class="line line2"></div>
-              <div class="line line3"></div>
-            </div>
-          </section>
-
-          <!-- ///////REGISTRATION#SUBSCRIBE-BTNS-SECTION/////// -->
-          <section>
-            <div class="btn-div-1">
-              <div class="input-group">
-                <button class="btn-authorization btn-authorization-1"
-                  onclick="scrollToElement('.auth-form-container.auth-form-container')">რეგისტრაცია</button>
-                <input type="email" class="input" id="Email" name="Email" placeholder="ელ-ფოსტა" autocomplete="off">
-                <input class="button--submit" value="გამოგვიწერთ" type="submit">
-              </div>
-            </div>
-          </section>
-        </div>
-      </header>
-
-
-
-
       <!-- /////////HEADER-MAIN-PHOTO-SECTION-ALSO-MAIN#STARTS#FROM#HERE///////////// -->
       <main>
+
         <section>
           <div class="video-container">
             <h2 class="sheni-cvlileba">შენი ცვლილება იწყება აქ !</h2>
-            <img class="main-cont-f1" src="img/onyx-btstp-pics/Onyx_033.jpg" alt="content">
+            <img class="main-cont-f1" src="img/onyx-btstp-pics/Onyx_033.jpg"
+              alt="ონიქსი,ფიტნესი,fitness,tbilisi,darbazi,varjishebi,presebi">
           </div>
         </section>
 
@@ -176,19 +186,20 @@
             <ul class="splide__list">
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733452749-AWMPY7D29U2LWCTJSRS7/1-01-2.jpg?format=1000w"
-                  alt="ონიქსი,onyx,"></li>
+                  alt="ონიქსი,onyx,varjishebi,ivarjishe,ივარჯიშე,სწორი,კვება,დიეტა"></li>
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733423512-APE64UMVOP59I6YWGAHQ/6-01.jpg?format=1000w"
-                  alt=""></li>
+                  alt="ინსტრუქტორები,instructors,fitness instrucots,personal trainers,პერსონალური ტრენერი,ინსტრუქტორი">
+              </li>
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733563626-WK7BWHWXVGVJQTUP238B/2-01.jpg?format=1000w"
-                  alt=""></li>
+                  alt="ვარჯიში,პერსონალური ვარჯიში,personal training,დიეტა,კვება,რაციონი"></li>
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586288649527-3HKAJILEQWDJ9WQLHAIQ/%E1%83%A9%E1%83%90%E1%83%AF%E1%83%93%E1%83%9D%E1%83%9B%E1%83%94%E1%83%91%E1%83%98?format=1000w"
-                  alt=""></li>
+                  alt="ჭამა,სწორი კვება,დიეტა,ვარჯიშის ვიდეოები, varjishis videoebi,presebi,abs"></li>
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1586339568236-FLVJX5TNK271ISTJGC9E/%E1%83%91%E1%83%9D%E1%83%A5%E1%83%A1%E1%83%98?format=1000w"
-                  alt=""></li>
+                  alt="personaluri treneri, tbilisi,varjishebi tbilishi,ვარჯიშები,ტრენერები,ინსტრუქტორები"></li>
             </ul>
           </div>
 
@@ -236,7 +247,8 @@
           <div class="image-parent">
             <h2 class="h2h2">ჩვენი გუნდი ყოველთვის მზად არის იზრუნოს შენს ტრანსფორმაციაზე !</h2>
             <img class="img-cont" data-speed="auto"
-              src="https://kinective.com/wp-content/uploads/2019/11/render-rooftop@2x-1.jpg" alt="" />
+              src="https://kinective.com/wp-content/uploads/2019/11/render-rooftop@2x-1.jpg"
+              alt="პერსონალური ვარჯიშები,kardio varjishebi,jgupuri varjishebi,ჯგუფური" />
           </div>
         </div>
 
@@ -350,7 +362,7 @@
             <div class="image-box">
               <img
                 src="https://images.unsplash.com/photo-1603503363848-6952525df449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80"
-                alt="img.jpg" />
+                alt="ონიქს ფიტნესი,პერსონალური ტრენერი,treneri" />
               <div class="overlay">
                 <div class="details">
                   <h3 class="title">
@@ -537,9 +549,11 @@
                 <label class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
                 <span class="error-text" id="error_agree"></span>
               </div>
-              <img class="validation-img-02" src="img/fitness-removebg-preview.png" alt="">
+              <img class="validation-img-02" src="img/fitness-removebg-preview.png"
+                alt="registration photo,ციფრული რობოკოპი,ციფრული,ვარჯიში,future">
               <button class="reg reg-primary w-100 mb-15">რეგისტრაცია</button>
-              <img class="validation-img" src="img/fitness-removebg-preview.png" alt="">
+              <img class="validation-img" src="img/fitness-removebg-preview.png"
+                alt="registration photo,ციფრული რობოკოპი,ციფრული,ვარჯიში,future">
             </form>
           </div>
         </section>

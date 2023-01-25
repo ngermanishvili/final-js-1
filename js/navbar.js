@@ -16,3 +16,21 @@ accordionTitles.forEach((title) => {
     title.classList.toggle("active");
   });
 });
+
+
+////fixed navbar-scroll-opacity-logic/////
+
+var header = document.querySelector(".header-main");
+var lastScroll = 0;
+
+window.addEventListener("scroll", function () {
+    var currentScroll = window.pageYOffset;
+    if (currentScroll > lastScroll) {
+      header.classList.add("opacity-half");
+    } else {
+      header.classList.remove("opacity-half");
+    }
+    lastScroll = currentScroll;
+});
+
+
