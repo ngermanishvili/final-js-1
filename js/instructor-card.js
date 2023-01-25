@@ -1,15 +1,15 @@
-fetch('db/card.json')
-  .then(response => response.json())
-  .then(data => {
+fetch("db/card.json")
+  .then((response) => response.json())
+  .then((data) => {
     // data is the parsed JSON object containing the list of users
     // create a new array with the first 4 elements of the original array
     const users = data.data.slice(0, 4);
     // iterate through the list of users and create card elements for each
-    const cardContainer = document.querySelector('.card-container');
-    users.forEach(user => {
+    const cardContainer = document.querySelector(".card-container");
+    users.forEach((user) => {
       // create a card element
-      const card = document.createElement('div');
-      card.classList.add('card');
+      const card = document.createElement("div");
+      card.classList.add("card");
       // set the user's name and avatar
       card.innerHTML = `
         <img src="${user.img}" />
@@ -28,7 +28,6 @@ fetch('db/card.json')
       cardContainer.appendChild(card);
     });
   })
-  .catch(error => {
+  .catch((error) => {
     console.error(error);
   });
-

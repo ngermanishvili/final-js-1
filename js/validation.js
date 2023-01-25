@@ -6,7 +6,6 @@ formRegistration.addEventListener("submit", function (event) {
   let errors = {};
   let form = event.target;
 
-  
   // USERNAME
   let usernameField = document.getElementById("fname").value;
   let nameRegex = /^[a-zA-Z ]+$/;
@@ -22,7 +21,6 @@ formRegistration.addEventListener("submit", function (event) {
     errors.username = "სახელის ველი არ უნდა იყოს ცარიელი";
   }
 
-
   //LASTNAME
   let lastnameField = document.getElementById("lname").value;
 
@@ -32,7 +30,6 @@ formRegistration.addEventListener("submit", function (event) {
       errors.lastname = "გთხოვთ ჩაწეროთ თქვენი გვარი";
     }
   }
-
 
   // PASSWORD ADDED REGEX
   let password1 = document.getElementById("passw1").value;
@@ -77,8 +74,7 @@ formRegistration.addEventListener("submit", function (event) {
     errors.agree = "გთხოვთ დაეთანხმოთ წესებს და პირობებს";
   }
 
-
-  // RADIO LOGIC 
+  // RADIO LOGIC
   let age = false;
   form.querySelectorAll('[name = "age"]').forEach((item) => {
     if (item.checked) {
@@ -111,9 +107,7 @@ formRegistration.addEventListener("submit", function (event) {
     form.submit();
   }
 
-
-
-  //E-MAIL REGEX VALIADTION 
+  //E-MAIL REGEX VALIADTION
 
   let emailField = document.getElementById("myemail");
   let emailError = document.getElementById("error_myemail");

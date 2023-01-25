@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +26,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <!-- ///////IT'S NOT WORKING IN SCRIPT SECCTION BOTTOM-THAT'S WHY THIS SPLIDE-JS.HERE(()) -->
-  <script src="splide.min.js"></script>  
+  <script src="splide.min.js"></script>
   <title>ONYX ფიტნესი</title>
 </head>
 
@@ -33,15 +34,15 @@
   <!-- ////SMOOTSCROLL-DIV-SMOOTH-WRAPPER-SMOOTH-CONTENT-DIVS-DO-NOT-TOUCH//// -->
   <div id="smooth-wrapper">
     <div id="smooth-content">
-        <!-- ////SMOOTSCROLL-DIV-SMOOTH-WRAPPER-SMOOTH-CONTENT-DIVS-DO-NOT-TOUCH//// -->
+      <!-- ////SMOOTSCROLL-DIV-SMOOTH-WRAPPER-SMOOTH-CONTENT-DIVS-DO-NOT-TOUCH//// -->
 
-        <!-- HEADER-STARTS-HERE -->
+      <!-- HEADER-STARTS-HERE -->
       <header>
         <div class="header-main">
           <a href="">
-            <h1 class="logo">
+            <h3 class="logo">
               <p> <span>onyx</span> fitness</p>
-            </h1>
+            </h3>
           </a>
           <div class="side-menu">
             <nav class="navbar" id="idnavbar">
@@ -52,44 +53,42 @@
                 <li>
                   <a href="#">მთავარი</a>
                 </li>
-                <li onclick="scrollToElement('.card-container#scrollFromTop')">
+                <li onclick="scrollToElement('.card-container.card-container')">
                   <a href="#"> ინსტრუქტორები</a>
                 </li>
-                <li onclick="scrollToElement('.wrapper-pricing#scrollFromTop')">
+                <li onclick="scrollToElement('.wrapper-pricing.wrapper-pricing')">
                   <a href="#">ფასდაკლებები</a>
                 </li>
-                <li onclick="scrollToElement('.image-gallery#scrollFromTop')">
+                <li onclick="scrollToElement('.image-gallery.image-gallery')">
                   <a href="#">პერსონალური ვარჯიშები</a>
                 </li>
               </ul>
-              <!-- <li>
-            <a href="#">რეგისტრაცია/a>
-          </li>
-          <li>
-            <a href="#">ავტორიზაცია</a>
-          </li> -->
+              <li class="registration-responsive">
+                <a href="#">რეგისტრაცია</a>
+              </li>
             </nav>
           </div>
           <!-- /////////BURGER-BAR-SECTION//////////// -->
-        <section>
-          <div class="burgBar" id="idburger">
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-            <div class="line line3"></div>
-          </div>
-        </section>
-
-<!-- ///////REGISTRATION#SUBSCRIBE-BTNS-SECTION/////// -->
-<section>
-          <div class="btn-div-1">
-            <div class="input-group">
-              <button class="btn-authorization btn-authorization-1"
-                onclick="scrollToElement('.auth-form-container#scrollFromTop')">რეგისტრაცია</button>
-              <input type="email" class="input" id="Email" name="Email" placeholder="ელ-ფოსტა" autocomplete="off">
-              <input class="button--submit" value="გამოგვიწერთ" type="submit">
+          <section>
+            <div class="burgBar" id="idburger">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
             </div>
-          </div>
-</section>
+          </section>
+
+          <!-- ///////REGISTRATION#SUBSCRIBE-BTNS-SECTION/////// -->
+          <section>
+            <div class="btn-div-1">
+              <div class="input-group">
+                <button class="btn-authorization btn-authorization-1"
+                  onclick="scrollToElement('.auth-form-container.auth-form-container')">რეგისტრაცია</button>
+                <input type="email" class="input" id="Email" name="Email" placeholder="ელ-ფოსტა" autocomplete="off">
+                <input class="button--submit" value="გამოგვიწერთ" type="submit">
+              </div>
+            </div>
+          </section>
+        </div>
       </header>
 
 
@@ -134,8 +133,14 @@
                   <p class="content-onyx-01">ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში <br>
                     ვქმნით
                     თანაბარ შესაძლებლობებს, სადაც სხვადასხვა <br> კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა
-                    საინტერესო, კომფორტული და გამოწვევებით სავსეა. 
-                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.
+                    საინტერესო, კომფორტული და გამოწვევებით სავსეა.
+                    ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის
+                    აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების
+                    ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს,
+                    მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს
+                    Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო
+                    სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა,
+                    ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.
                 </div>
               </div>
             </div>
@@ -156,11 +161,11 @@
         <section>
           <h2 class="gallery-h2-content">განავითარე შესაძლებლობი</h2>
           <div class="loadingspinner">
-            <div id="square1"></div>
-            <div id="square2"></div>
-            <div id="square3"></div>
-            <div id="square4"></div>
-            <div id="square5"></div>
+            <div class="square1"></div>
+            <div class="square2"></div>
+            <div class="square3"></div>
+            <div class="square4"></div>
+            <div class="square5"></div>
           </div>
         </section>
 
@@ -171,7 +176,7 @@
             <ul class="splide__list">
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733452749-AWMPY7D29U2LWCTJSRS7/1-01-2.jpg?format=1000w"
-                  alt=""></li>
+                  alt="ონიქსი,onyx,"></li>
               <li class="splide__slide"><img
                   src="https://images.squarespace-cdn.com/content/v1/5e5587a0d35cd344f1a56fbd/1629733423512-APE64UMVOP59I6YWGAHQ/6-01.jpg?format=1000w"
                   alt=""></li>
@@ -214,13 +219,17 @@
 
 
         <!-- ////////ANIMATION-SPINNER/////////// -->
-        <div class="loadingspinner">
-          <div id="square1"></div>
-          <div id="square2"></div>
-          <div id="square3"></div>
-          <div id="square4"></div>
-          <div id="square5"></div>
-        </div>
+        <section>
+          <h2 class="gallery-h2-content">ონიქსში შეუძლებელი არაფერია</h2>
+          <div class="loadingspinner">
+            <div class="square1"></div>
+            <div class="square2"></div>
+            <div class="square3"></div>
+            <div class="square4"></div>
+            <div class="square5"></div>
+          </div>
+        </section>
+
 
         <!-- ////Paralla-effect-section-Here////// -->
         <div class="parallax">
@@ -229,376 +238,384 @@
             <img class="img-cont" data-speed="auto"
               src="https://kinective.com/wp-content/uploads/2019/11/render-rooftop@2x-1.jpg" alt="" />
           </div>
+        </div>
 
 
-          <!-- //////CARD-CONTAINER-USING-LOCAL--API///////////////////// -->
-          <!-- //////ინსტრუქტორების-ქარდები-იტენებს-ლოკალ-აპის///////////////////// -->
-          <h2 class="gallery-h2-content">ონიქს ინსტრუქტორები</h2>
-          <section>
-            <h3 class="team-members-h2"></h3>
-            <div class="card-container" id="scrollFromTop">
-              <div class="card">
-                <img src="https://s30studio.com.au/wp-content/uploads/2022/05/Oscar-Winter-1.jpg" alt="img" />
-                <div class="card-info">
-                  <h6>თამაზ გურული</h6>
-                  <span>იოგა ინსტრუქტორი</span>
-                  <div class="social-icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </div>
+        <!-- //////CARD-CONTAINER-USING-LOCAL--API///////////////////// -->
+        <!-- //////ინსტრუქტორების-ქარდები-იტენებს-ლოკალ-აპის///////////////////// -->
+        <h2 class="gallery-h2-content">ონიქს ინსტრუქტორები</h2>
+        <section>
+          <h3 class="team-members-h2"></h3>
+          <div class="card-container">
+            <div class="card">
+              <img src="https://s30studio.com.au/wp-content/uploads/2022/05/Oscar-Winter-1.jpg" alt="img" />
+              <div class="card-info">
+                <h6>თამაზ გურული</h6>
+                <span>იოგა ინსტრუქტორი</span>
+                <div class="social-icon">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!-- ////////SHARE-YOUR-EXPERIENCE-SECTION-USES-JS-AND-ANIMATIONS//////////////////////// -->
-          <!-- ////////გაგვიზიარე-შენი-გამოცდილება-იყენებს-ჯავასკრიპტს-ანიმაციებს//////////////////////// -->
-          <section>
-            <h2 class="gallery-h2-content">ონიქსი</h2>
-            <div class="body-smile">
-              <form class="fr" action="">
-                <label class="fr__label" for="face-rating">როგორია შენი გამოცდილება ფიტნესის სფეროში?</label>
-                <div class="fr__face" role="img" aria-label="Straight face">
-                  <div class="fr__face-right-eye" data-right></div>
-                  <div class="fr__face-left-eye" data-left></div>
-                  <div class="fr__face-mouth-lower" data-mouth-lower></div>
-                  <div class="fr__face-mouth-upper" data-mouth-upper></div>
+        <!-- ////////SHARE-YOUR-EXPERIENCE-SECTION-USES-JS-AND-ANIMATIONS//////////////////////// -->
+        <!-- ////////გაგვიზიარე-შენი-გამოცდილება-იყენებს-ჯავასკრიპტს-ანიმაციებს//////////////////////// -->
+        <section>
+          <h2 class="gallery-h2-content">ონიქსი</h2>
+          <div class="body-smile">
+            <form class="fr">
+              <label class="fr__label" for="face-rating">როგორია შენი გამოცდილება ფიტნესის სფეროში?</label>
+              <div class="fr__face" role="img" aria-label="Straight face">
+                <div class="fr__face-right-eye" data-right></div>
+                <div class="fr__face-left-eye" data-left></div>
+                <div class="fr__face-mouth-lower" data-mouth-lower></div>
+                <div class="fr__face-mouth-upper" data-mouth-upper></div>
+              </div>
+              <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+            </form>
+            <input class="your-experience" type="text" name="text" placeholder="გაგვიზიარე შენი გამოცდილება....">
+            <button class="send-us-info">
+              <span class="svg-wrapper-1">
+                <span class="svg-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path fill="currentColor"
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                    </path>
+                  </svg>
+                </span>
+              </span>
+              <span>მოგვწერე</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- ///////HAMSTER-ANIMATION-SECTION///////// -->
+        <section>
+          <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+              <div class="hamster__body">
+                <div class="hamster__head">
+                  <div class="hamster__ear"></div>
+                  <div class="hamster__eye"></div>
+                  <div class="hamster__nose"></div>
                 </div>
-                <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
-              </form>
-              <input class="your-experience" type="text" name="text" class="input"
-                placeholder="გაგვიზიარე შენი გამოცდილება....">
-              <button class="send-us-info">
-                <div class="svg-wrapper-1">
-                  <div class="svg-wrapper">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path fill="currentColor"
-                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
-                      </path>
-                    </svg>
-                  </div>
-                </div>
-                <span>მოგვწერე</span>
-              </button>
+                <div class="hamster__limb hamster__limb--fr"></div>
+                <div class="hamster__limb hamster__limb--fl"></div>
+                <div class="hamster__limb hamster__limb--br"></div>
+                <div class="hamster__limb hamster__limb--bl"></div>
+                <div class="hamster__tail"></div>
+              </div>
             </div>
+            <div class="spoke"></div>
+          </div>
+        </section>
+
+        <!-- ////////////VIDEO-CONTAINER-CARDS-SLIDING-AUTOMATICLY PLUS SOME CONTENT////////////////// -->
+        <!-- //////////ვიდეო-კონტეინერი-თავისი-კონტენით////////////////// -->
+        <section>
+          <div class="row">
+            <div class="content-3-training">
+              <div class="video-container">
+                <div class="text-window">
+                  <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით <br> თანაბარ
+                    შესაძლებლობებს, სადაც
+                    სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და
+                    გამოწვევებით
+                    სავსეა...გავრცელებული მოსაზრებით, <br> Lorem Ipsum შემთხვევითი ტექსტი სულაც არაა. მისი ფესვები
+                    ჯერკიდევ ჩვ. წ. <br> აღ-მდე 45 წლის დროინდელი კლასიკური <br> ლათინური ლიტერატურიდან მოდის. "de
+                    Finibus Bonorum et Malorum"-ის 1.10.32 და 1.10.33 თავებიდან. <a href="#">მეტის ნახვა</a></p>
+                </div>
+
+              </div>
+              <video class="main-custom-video" autoplay muted loop playsinline>
+                <source src="img/anywhere.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </section>
+
+        <!-- /////////ONYX-GALLERY-SECTION-USES-LOCAL-API-JS/GALLERYCONTENT.JS//////////////////// -->
+        <!-- /////////ონიქს-ინსტრუქტორების-გალერეა-ლოკაჰოსთიდან-წამოსული-ინფორმაცია/// ---->
+
+        <section>
+          <h2 class="gallery-h2-content">ონიქსი გალერეა</h2>
+          <div class="image-gallery">
+            <div class="image-box">
+              <img
+                src="https://images.unsplash.com/photo-1603503363848-6952525df449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                alt="img.jpg" />
+              <div class="overlay">
+                <div class="details">
+                  <h3 class="title">
+                    <a href="#">ელენე</a>
+                  </h3>
+                  <span class="category">
+                    <a href="#">სერთიფიცირებული პერსონალური ვ</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- //////PRICING-CARDS-SECTION-FORM//////////// -->
+        <!-- //////ფასების-და-შეთავაზებების-კარტების-ფორმა//////////// -->
+
+        <h2 class="gallery-h2-content sales-card">ფასდაკლებები აბონიმენტზე</h2>
+        <section>
+
+          <div class="wrapper-pricing">
+            <div class="table basic">
+              <div class="price-section">
+                <div class="price-area">
+                  <div class="inner-area">
+                    <span class="text">₾</span>
+                    <span class="price">29</span>
+                  </div>
+                </div>
+              </div>
+              <div class="package-name"></div>
+              <ul class="features">
+                <li>
+                  <span class="list-name">2 ვარჯიში კვირაში</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ჯგუფური ვარჯიშები</span>
+                  <span class="icon cross"><i class="fas fa-times"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">კვების რაციონის შედგენა</span>
+                  <span class="icon cross"><i class="fas fa-times"></i></span>
+                </li>
+              </ul>
+              <div class="btn-card"><button>გაიაქტიურე</button></div>
+            </div>
+
+            <div class="table premium">
+              <div class="ribbon"><span>შეთავაზება</span></div>
+              <div class="price-section">
+                <div class="price-area">
+                  <div class="inner-area">
+                    <span class="text">₾</span>
+                    <span class="price">59</span>
+                  </div>
+                </div>
+              </div>
+              <div class="package-name"></div>
+              <ul class="features">
+                <li>
+                  <span class="list-name">3 ვარჯიში კვირაში</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ჯგუფური ვარჯიშები</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">კვების რაციონის შედგენა</span>
+                  <span class="icon cross"><i class="fas fa-times"></i></span>
+                </li>
+              </ul>
+              <div class="btn-card"><button>გაიაქტიურე</button></div>
+            </div>
+
+            <div class="table ultimate">
+              <div class="price-section">
+                <div class="price-area">
+                  <div class="inner-area">
+                    <span class="text">₾</span>
+                    <span class="price">99</span>
+                  </div>
+                </div>
+              </div>
+              <div class="package-name"></div>
+              <ul class="features">
+                <li>
+                  <span class="list-name">ინსტურქტორთან კონსულტაცია</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ჯგუფური ვარჯიშები</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">კვების რაციონის შედგენა</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                  <span class="list-name">ონლაინ კონსულტაცია</span>
+                  <span class="icon check"><i class="fas fa-check"></i></span>
+                </li>
+              </ul>
+              <div class="btn-card"><button>გაიაქტიურე</button></div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ///////VALIDATION-FORM-REG-FORM-SECTION///////// -->
+        <!-- ///////ვალიდაციის-ფორმა-რეგისტრაციის-ფორმა-///////// -->
+        <section>
+          <h2 class="validation-h2">გაიარე რეგისტრაცია ონიქსზე</h2>
+          <div class="auth-form-container ">
+            <form id="form-registration" method="GET">
+              <div class="form-wraper">
+                <label class="text-input-label" for="fname">სახელი</label>
+                <input class="text-input" type="text" id="fname" name="username" placeholder="ჩაწერეთ სახელი" />
+                <span class="error-text" id="error_username"></span>
+              </div>
+
+              <div class="form-wraper">
+                <label class="text-input-label" for="lname">გვარი</label>
+                <input class="text-input" type="text" id="lname" name="lastname" placeholder="ჩაწერეთ სახელი" />
+                <span class="error-text" id="error_lastname"></span>
+              </div>
+
+              <div class="form-wraper password-form">
+                <label class="text-input-label" for="passw1">პაროლი</label>
+                <input class="text-input password-input" type="password" id="passw1" name="mypassword"
+                  placeholder="ჩაწერეთ პაროლი" />
+                <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon1"></i>
+                <span class="error-text" id="error_mypassword"></span>
+              </div>
+              <div>
+
+              </div>
+              <div class="form-wraper password-form-2">
+                <label class="text-input-label" for="passw2">გაიმეორეთ პაროლი</label>
+                <input class="text-input password-input" type="password" id="passw2" name="mypassword2"
+                  placeholder="გაიმეორეთ პაროლი" />
+                <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon2"></i>
+                <span class="error-text" id="error_mypassword2"></span>
+              </div>
+              <div class="form-wraper">
+                <label>ელ-ფოსტა</label>
+                <input class="emailField" type="email" id="myemail" name="email" placeholder="ელ-ფოსტა" />
+                <span class="error-text" id="error_myemail"></span>
+              </div>
+
+              <div class="age-div">
+                <input class="age-input" type="radio" name="age" id="age1" />
+                <label>მამრობითი</label>
+                <input class="age-input-2" type="radio" id="age2" name="age" />
+                <label>მდედრობითი</label>
+                <span class="error-text" id="error_age"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="text-input-label">დაბადების ადგილი</label>
+                <select class="locations">
+                  <option>საქართველო</option>
+                  <option>საბერძნეთი</option>
+                  <option>ესპანეთი</option>
+                  <option>ბრიტანეთი</option>
+                </select>
+              </div>
+              <div class="terms-n-conds">
+                <label class="container-checkbox">
+                  <input class="#" type="checkbox" name="agree" id="agree" checked="checked" />
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
+                <span class="error-text" id="error_agree"></span>
+              </div>
+              <img class="validation-img-02" src="img/fitness-removebg-preview.png" alt="">
+              <button class="reg reg-primary w-100 mb-15">რეგისტრაცია</button>
+              <img class="validation-img" src="img/fitness-removebg-preview.png" alt="">
+            </form>
+          </div>
+        </section>
+
+
+        <!-- /////////BEFORE-REGISTRATION-BOTTOM-CONTENT/////////// -->
+        <section class="last-one">
+          <section class="section1">
+            <h3> ONYX </h3>
           </section>
+          <section class="section2">
+            <h3>ფიტნესი</h3>
+          </section>
+        </section>
 
-<!-- ///////HAMSTER-ANIMATION-SECTION///////// -->
-            <section>
-              <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
-                <div class="wheel"></div>
-                <div class="hamster">
-                  <div class="hamster__body">
-                    <div class="hamster__head">
-                      <div class="hamster__ear"></div>
-                      <div class="hamster__eye"></div>
-                      <div class="hamster__nose"></div>
-                    </div>
-                    <div class="hamster__limb hamster__limb--fr"></div>
-                    <div class="hamster__limb hamster__limb--fl"></div>
-                    <div class="hamster__limb hamster__limb--br"></div>
-                    <div class="hamster__limb hamster__limb--bl"></div>
-                    <div class="hamster__tail"></div>
-                  </div>
-                </div>
-                <div class="spoke"></div>
+
+        <!-- ////FOOTER-TOP-ANIMATION-SEDCTION HERE =))  -->
+        <section>
+          <div class="space-div">
+            <div class="loader-02">
+              <div style="--i:0" class="slider">
               </div>
-            </section>
-
-            <!-- ////////////VIDEO-CONTAINER-CARDS-SLIDING-AUTOMATICLY PLUS SOME CONTENT////////////////// -->
-            <!-- //////////ვიდეო-კონტეინერი-თავისი-კონტენით////////////////// -->
-            <section>
-              <div class="row">
-                <div class="content-3-training">
-                  <div class="video-container">
-                    <div class="text-window">
-                      <p>ჩვენი წარმატება ჩვენი გუნდის თითოეული წევრის დამსახურებაა. ონიქსში ვქმნით <br> თანაბარ
-                        შესაძლებლობებს, სადაც
-                        სხვადასხვა კულტურისა და ღირებულების მქონე ადამიანებისთვის მუშაობა საინტერესო, კომფორტული და
-                        გამოწვევებით
-                        სავსეა...გავრცელებული მოსაზრებით, <br> Lorem Ipsum შემთხვევითი ტექსტი სულაც არაა. მისი ფესვები ჯერკიდევ ჩვ. წ. <br> აღ-მდე 45 წლის დროინდელი კლასიკური <br> ლათინური ლიტერატურიდან მოდის. "de Finibus Bonorum et Malorum"-ის 1.10.32 და 1.10.33 თავებიდან.  <a href="#">მეტის ნახვა</a></p>
-                    </div>
-
-                  </div>
-                  <video class="main-custom-video" autoplay muted loop playsinline>
-                    <source src="img/anywhere.mp4" type="video/mp4">
-                  </video>
-                </div>
+              <div style="--i:1" class="slider">
               </div>
-            </section>
-
-            <!-- /////////ONYX-GALLERY-SECTION-USES-LOCAL-API-JS/GALLERYCONTENT.JS//////////////////// -->
-            <!-- /////////ონიქს-ინსტრუქტორების-გალერეა-ლოკაჰოსთიდან-წამოსული-ინფორმაცია/// ---->
-
-            <section>
-              <h2 class="gallery-h2-content">ონიქსი გალერეა</h2>
-              <div class="image-gallery" id="scrollFromTop">
-                <div class="image-box">
-                  <img
-                    src="https://images.unsplash.com/photo-1603503363848-6952525df449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80"
-                    alt="img.jpg" />
-                  <div class="overlay">
-                    <div class="details">
-                      <h3 class="title">
-                        <a href="#">ელენე</a>
-                      </h3>
-                      <span class="category">
-                        <a href="#">სერთიფიცირებული პერსონალური ვ</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-            </section>
-
-            <!-- //////PRICING-CARDS-SECTION-FORM//////////// -->
-            <!-- //////ფასების-და-შეთავაზებების-კარტების-ფორმა//////////// -->
-
-            <h2 class="gallery-h2-content sales-card">ფასდაკლებები აბონიმენტზე</h2>
-            <section>
-
-              <div class="wrapper-pricing" id="scrollFromTop">
-                <div class="table basic">
-                  <div class="price-section">
-                    <div class="price-area">
-                      <div class="inner-area">
-                        <span class="text">₾</span>
-                        <span class="price">29</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-name"></div>
-                  <ul class="features">
-                    <li>
-                      <span class="list-name">2 ვარჯიში კვირაში</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ჯგუფური ვარჯიშები</span>
-                      <span class="icon cross"><i class="fas fa-times"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">კვების რაციონის შედგენა</span>
-                      <span class="icon cross"><i class="fas fa-times"></i></span>
-                    </li>
-                  </ul>
-                  <div class="btn-card"><button>გაიაქტიურე</button></div>
-                </div>
-
-                <div class="table premium">
-                  <div class="ribbon"><span>შეთავაზება</span></div>
-                  <div class="price-section">
-                    <div class="price-area">
-                      <div class="inner-area">
-                        <span class="text">₾</span>
-                        <span class="price">59</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-name"></div>
-                  <ul class="features">
-                    <li>
-                      <span class="list-name">3 ვარჯიში კვირაში</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ინსტრუქტორთან კონსულტაცია</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ჯგუფური ვარჯიშები</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">კვების რაციონის შედგენა</span>
-                      <span class="icon cross"><i class="fas fa-times"></i></span>
-                    </li>
-                  </ul>
-                  <div class="btn-card"><button>გაიაქტიურე</button></div>
-                </div>
-
-                <div class="table ultimate">
-                  <div class="price-section">
-                    <div class="price-area">
-                      <div class="inner-area">
-                        <span class="text">₾</span>
-                        <span class="price">99</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-name"></div>
-                  <ul class="features">
-                    <li>
-                      <span class="list-name">ინსტურქტორთან კონსულტაცია</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ჯგუფური ვარჯიშები</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">კვების რაციონის შედგენა</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                    <li>
-                      <span class="list-name">ონლაინ კონსულტაცია</span>
-                      <span class="icon check"><i class="fas fa-check"></i></span>
-                    </li>
-                  </ul>
-                  <div class="btn-card"><button>გაიაქტიურე</button></div>
-                </div>
+              <div style="--i:2" class="slider">
               </div>
-            </section>
-
-
-            <!-- ///////VALIDATION-FORM-REG-FORM-SECTION///////// -->
-            <!-- ///////ვალიდაციის-ფორმა-რეგისტრაციის-ფორმა-///////// -->
-            <section>
-              <h2 class="validation-h2">გაიარე რეგისტრაცია ონიქსზე</h2>
-              <div class="auth-form-container " id="scrollFromTop">
-                <form action="" id="form-registration" method="GET">
-                  <div class="form-wraper">
-                    <label class="text-input-label" for="fname">სახელი</label>
-                    <input class="text-input" type="text" id="fname" name="username" placeholder="ჩაწერეთ სახელი" />
-                    <span class="error-text" id="error_username"></span>
-                  </div>
-
-                  <div class="form-wraper">
-                    <label class="text-input-label" for="lname">გვარი</label>
-                    <input class="text-input" type="text" id="lname" name="lastname" placeholder="ჩაწერეთ სახელი" />
-                    <span class="error-text" id="error_lastname"></span>
-                  </div>
-
-                  <div class="form-wraper password-form">
-                    <label class="text-input-label" for="passw1">პაროლი</label>
-                    <input class="text-input password-input" type="password" id="passw1" name="mypassword"
-                      placeholder="ჩაწერეთ პაროლი" />
-                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon1"></i>
-                    <span class="error-text" id="error_mypassword"></span>
-                  </div>
-                  <div>
-
-                  </div>
-                  <div class="form-wraper password-form-2">
-                    <label class="text-input-label" for="passw2">გაიმეორეთ პაროლი</label>
-                    <input class="text-input password-input" type="password" id="passw2" name="mypassword2"
-                      placeholder="გაიმეორეთ პაროლი" />
-                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon2"></i>
-                    <span class="error-text" id="error_mypassword2"></span>
-                  </div>
-                  <div class="form-wraper">
-                    <label for="myemail-label">ელ-ფოსტა</label>
-                    <input class="emailField" type="email" id="myemail" name="email" placeholder="ელ-ფოსტა" />
-                    <span class="error-text" id="error_myemail"></span>
-                  </div>
-
-                  <div class="age-div">
-                    <input class="age-input" type="radio" name="age" id="age1" class="age" />
-                    <label for="age1">მამრობითი</label>
-                    <input class="age-input-2" type="radio" id="age2" name="age" class="age" />
-                    <label for="age2">მდედრობითი</label>
-                    <span class="error-text" id="error_age"></span>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="text-input-label" for="birthDate">დაბადების ადგილი</label>
-                    <select class="locations">
-                      <option>საქართველო</option>
-                      <option>საბერძნეთი</option>
-                      <option>ესპანეთი</option>
-                      <option>ბრიტანეთი</option>
-                    </select>
-                  </div>
-                  <div class="terms-n-conds">
-                    <label class="container-checkbox">
-                      <input class="#" type="checkbox" name="agree" id="agree" checked="checked" />
-                      <div class="checkmark"></div>
-                    </label>
-
-                    <label class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
-                    <span class="error-text" id="error_agree"></span>
-                  </div>
-                  <img class="validation-img-02" src="img/fitness-removebg-preview.png" alt="">
-                  <button class="reg reg-primary w-100 mb-15">რეგისტრაცია</button>
-                  <img class="validation-img" src="img/fitness-removebg-preview.png" alt="">
-                </form>
+              <div style="--i:3" class="slider">
               </div>
-            </section>
-
-
-            <!-- /////////BEFORE-REGISTRATION-BOTTOM-CONTENT/////////// -->
-            <section class="last-one">
-              <section class="section1">ONYX</section>
-              <section class="section2">ფიტნესი</section>
-            </section>
-
-
-            <!-- ////FOOTER-TOP-ANIMATION-SEDCTION HERE =))  -->
-            <section>
-              <div class="space-div">
-                <section class="loader-02">
-                  <div style="--i:0" class="slider">
-                  </div>
-                  <div style="--i:1" class="slider">
-                  </div>
-                  <div style="--i:2" class="slider">
-                  </div>
-                  <div style="--i:3" class="slider">
-                  </div>
-                  <div style="--i:4" class="slider">
-                  </div>
-                  <div style="--i:4" class="slider">
-                  </div>
-                  <div style="--i:3" class="slider">
-                  </div>
-                  <div style="--i:1" class="slider">
-                  </div>
-                  <div style="--i:4" class="slider">
-                  </div>
-                  <div style="--i:3" class="slider">
-                  </div>
-                  <div style="--i:2" class="slider">
-                  </div>
-                  <div style="--i:1" class="slider">
-                  </div>
-                  <div style="--i:0" class="slider">
-                  </div>
-                  <div style="--i:1" class="slider">
-                  </div>
-                  <div style="--i:2" class="slider">
-                  </div>
-                  <div style="--i:3" class="slider">
-                  </div>
-                  <div style="--i:4" class="slider">
-                  </div>
-                  <div style="--i:5" class="slider">
-                  </div>
-                  <div style="--i:0" class="slider">
-                  </div>
-                  <div style="--i:1" class="slider">
-                  </div>
-                  <div style="--i:2" class="slider">
-                  </div>
-                  <div style="--i:3" class="slider">
-                  </div>
-                  <div style="--i:4" class="slider">
-                  </div>
-                  <div style="--i:5" class="slider">
-                  </div>
+              <div style="--i:4" class="slider">
               </div>
-            </section>
+              <div style="--i:4" class="slider">
+              </div>
+              <div style="--i:3" class="slider">
+              </div>
+              <div style="--i:1" class="slider">
+              </div>
+              <div style="--i:4" class="slider">
+              </div>
+              <div style="--i:3" class="slider">
+              </div>
+              <div style="--i:2" class="slider">
+              </div>
+              <div style="--i:1" class="slider">
+              </div>
+              <div style="--i:0" class="slider">
+              </div>
+              <div style="--i:1" class="slider">
+              </div>
+              <div style="--i:2" class="slider">
+              </div>
+              <div style="--i:3" class="slider">
+              </div>
+              <div style="--i:4" class="slider">
+              </div>
+              <div style="--i:5" class="slider">
+              </div>
+              <div style="--i:0" class="slider">
+              </div>
+              <div style="--i:1" class="slider">
+              </div>
+              <div style="--i:2" class="slider">
+              </div>
+              <div style="--i:3" class="slider">
+              </div>
+              <div style="--i:4" class="slider">
+              </div>
+              <div style="--i:5" class="slider">
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <!-- //////////////////MAIN-SECTION-ENDS-HERE//////////////// -->
+        <!-- //////////////////MAIN-SECTION-ENDS-HERE//////////////// -->
       </main>
       <!-- /////////////////////FOOTER-FOOOTER-FOOOTER-FOOTER////////////////////////////// -->
       <footer class="footer">
-
         <div class="container-footer">
           <div class="row-footer">
             <div class="footer-col">
@@ -635,6 +652,8 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
+          </div>
+        </div>
       </footer>
     </div>
   </div>
@@ -703,7 +722,7 @@
   <script src="gsap/ScrollTrigger.min.js"></script>
   <script src="gsap/ScrollSmoother.min.js"></script>
   <script src="gsap/gsap.js"></script>
-  <script src="smile-emotions.js"></script>
+  <script src="js/smile-emotions.js"></script>
   <script src="js/splide-multiple.js"></script>
   <script src="splide.min.js"></script>
   <script src="js/gallery.js"></script>

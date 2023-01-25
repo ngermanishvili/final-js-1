@@ -25,12 +25,15 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        background-color: #171717;
+        height: 80vh;
+        background-color: #9b4040;
         transform: translateX(-100%);
         transition: transform 0.4s ease;
         z-index: 1;
+        transition: 1s ease-in-out;
     }
+
+
 
     .side-menu.active {
         transform: translateX(0);
@@ -55,6 +58,12 @@
         display: block;
     }
 
+    .registration-responsive{
+        display: block;
+        background-color: #171717;
+        width: 200px;
+   
+    }
 
     .activeBurgerBar .line1 {
         top: 50%;
@@ -91,7 +100,9 @@
 
 
     }
-
+    .loader-02{
+        margin-top: 50px;
+    }
     /* .side-menu{
           position: fixed;
           top: 0;
