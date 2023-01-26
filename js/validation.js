@@ -20,6 +20,7 @@ formRegistration.addEventListener("submit", function (event) {
   if (usernameField == "") {
     errors.username = "სახელის ველი არ უნდა იყოს ცარიელი";
   }
+  
 
   //LASTNAME
   let lastnameField = document.getElementById("lname").value;
@@ -136,6 +137,7 @@ formRegistration.addEventListener("submit", function (event) {
     }
   });
 });
+
 
 // togglr Show/hide
 let passwordInputs = document.querySelectorAll(".password-input");
