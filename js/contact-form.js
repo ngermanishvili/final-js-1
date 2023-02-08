@@ -1,3 +1,5 @@
+"use strict"
+
 let showContactBtn = document.getElementById("show-contact-btn");
 let contactSection = document.getElementById("contact-section");
 let xmark = document.getElementById("xmark");

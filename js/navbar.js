@@ -1,3 +1,5 @@
+"use strict"
+
 let navigElements = document.getElementById("idnavbar");
 let burgerElements = document.getElementById("idburger");
 let navAnimation = document.querySelector(".burgBar");

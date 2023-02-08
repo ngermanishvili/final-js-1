@@ -1,3 +1,5 @@
+"use strict"
+
 window.addEventListener("DOMContentLoaded", () => {
   const fr = new FaceRating("#face-rating");
 });

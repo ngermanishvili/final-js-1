@@ -1,3 +1,5 @@
+"use strict"
+
 fetch("db/card.json")
   .then((response) => response.json())
   .then((data) => {

@@ -1,3 +1,4 @@
+"use strict"
 fetch("db/gallerycontent.json")
   .then((response) => response.json())
   .then((data) => {

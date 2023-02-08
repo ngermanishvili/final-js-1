@@ -1,3 +1,4 @@
+"use strict"
 const cookieBox = document.querySelector(".cookies"),
 acceptBtn = cookieBox.querySelector("button");
 
